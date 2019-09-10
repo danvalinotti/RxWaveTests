@@ -1,0 +1,717 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 32,
+    "passes": 0,
+    "pending": 0,
+    "failures": 32,
+    "start": "2019-09-10T17:18:19.744Z",
+    "end": "2019-09-10T17:18:27.504Z",
+    "duration": 7760,
+    "testsRegistered": 32,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "eeb56a8f-46bf-492d-b8db-17185adadd85",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "a58333a7-23a5-4128-93c9-778b680db98e",
+        "title": "Frontend Tests",
+        "fullFile": "C:\\Users\\dvalinotti\\Desktop\\GalaxE_Workspace\\RxWaveTests\\test\\frontend.test.js",
+        "file": "\\test\\frontend.test.js",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook",
+            "fullTitle": "Frontend Tests \"before all\" hook",
+            "timedOut": false,
+            "duration": 26,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "driver = new webdriver.Builder()\n    .forBrowser('chrome')\n    .build();",
+            "err": {},
+            "isRoot": false,
+            "uuid": "fcac443d-0ff9-4923-ac09-19aa820b8140",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Test page load",
+            "fullTitle": "Frontend Tests Test page load",
+            "timedOut": false,
+            "duration": 7504,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "await driver.get(globals.SITE);\nlet title = await driver.getTitle();\nchai.assert.equal(title, 'Inside Rx');",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "2ff9600c-a285-4151-b400-829cded614af",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test login authentication",
+            "fullTitle": "Frontend Tests Test login authentication",
+            "timedOut": false,
+            "duration": 2,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let fields = await driver.findElements(By.css('.MuiInputBase-input.MuiOutlinedInput-input'));\nawait fields[0].sendKeys('admin@galaxe.com');\nawait fields[1].sendKeys('password');\nlet buttons = await driver.findElements(By.css('.MuiButtonBase-root.MuiButton-root.MuiButton-contained'));\nawait buttons[0].click();\nawait driver.wait(async function() {\n    return await driver.getCurrentUrl() === globals.SITE + \"/#/search\";\n});\nlet url = await driver.getCurrentUrl();\nchai.assert.equal(url, globals.SITE + '/#/search');",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "5e40163b-b488-4dc5-b38c-12d07cfea19e",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Acyclovir ",
+            "fullTitle": "Frontend Tests Test search for drug Acyclovir ",
+            "timedOut": false,
+            "duration": 11,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "789b0f07-316f-4050-a813-fe172f645233",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Amlodipine Besylate ",
+            "fullTitle": "Frontend Tests Test search for drug Amlodipine Besylate ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "2521163f-b002-435c-98e1-753774dc0628",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Atorvastatin Calcium ",
+            "fullTitle": "Frontend Tests Test search for drug Atorvastatin Calcium ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "7d9f5706-0691-456a-8a29-53382df8438f",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Basaglar Kwikpen ",
+            "fullTitle": "Frontend Tests Test search for drug Basaglar Kwikpen ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "25d861de-8eb2-4de6-9152-699a71705637",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Citalopram Hydrobromide ",
+            "fullTitle": "Frontend Tests Test search for drug Citalopram Hydrobromide ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "2f3f1c30-665d-4189-8de9-bec39f0d9e56",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Clindamycin Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Clindamycin Hydrochloride ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "410a602f-bd09-4c2b-95b7-6bfd93e593cb",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Clomiphene Citrate ",
+            "fullTitle": "Frontend Tests Test search for drug Clomiphene Citrate ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "5060ada0-f9e1-4fb2-966b-7222586d0b9c",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Diclegis ",
+            "fullTitle": "Frontend Tests Test search for drug Diclegis ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "29d9658c-83e1-41a8-bf9c-3f72a7f628bd",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Ergocalciferol ",
+            "fullTitle": "Frontend Tests Test search for drug Ergocalciferol ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "c9075435-3744-4c4d-82ff-30ad1d320d56",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Ethinyl Estradiol-Norgestimate ",
+            "fullTitle": "Frontend Tests Test search for drug Ethinyl Estradiol-Norgestimate ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "942cdddd-c35e-4b09-b4c9-3d1ebf86264e",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Flovent HFA ",
+            "fullTitle": "Frontend Tests Test search for drug Flovent HFA ",
+            "timedOut": false,
+            "duration": 2,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "fad38e6c-8de0-4b69-9994-2a6aa906525a",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Fluoxetine Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Fluoxetine Hydrochloride ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "6b577453-e932-408e-ad94-828076e170d8",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Gabapentin ",
+            "fullTitle": "Frontend Tests Test search for drug Gabapentin ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "4bc1d0d7-3393-4037-846c-0623b7d73f34",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Humulin N  ",
+            "fullTitle": "Frontend Tests Test search for drug Humulin N  ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "ba3a58ab-2d0d-4504-bcae-8459d81b9812",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Hydrochlorothiazide-Losartan ",
+            "fullTitle": "Frontend Tests Test search for drug Hydrochlorothiazide-Losartan ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "89590458-3d67-4379-aff8-89dceee361b6",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Lantus Solostar ",
+            "fullTitle": "Frontend Tests Test search for drug Lantus Solostar ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "6f5f9cc2-cb67-4416-8fd4-7f9974a73ed4",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Levothyroxine Sodium ",
+            "fullTitle": "Frontend Tests Test search for drug Levothyroxine Sodium ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "8393926b-6d94-428b-973d-905696f54463",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Liothyronine Sodium ",
+            "fullTitle": "Frontend Tests Test search for drug Liothyronine Sodium ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "97e238ee-a3d5-46ee-b5cf-4c819a377518",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Losartan Potassium ",
+            "fullTitle": "Frontend Tests Test search for drug Losartan Potassium ",
+            "timedOut": false,
+            "duration": 12,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "1e311335-c2c5-47d9-a116-f32600e6e7c0",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Metformin Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Metformin Hydrochloride ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "95b95cc0-476b-4c48-a4d7-06d6d71b80e6",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Metoprolol Tartrate ",
+            "fullTitle": "Frontend Tests Test search for drug Metoprolol Tartrate ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "8ef4887e-aec5-4b2d-9dac-11326349e044",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Novolin 70-30 ",
+            "fullTitle": "Frontend Tests Test search for drug Novolin 70-30 ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "98c86f88-3c28-40ae-8393-5823a7b661fe",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Pravastatin Sodium ",
+            "fullTitle": "Frontend Tests Test search for drug Pravastatin Sodium ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "d42b0b40-7041-49ad-9e31-de4f2366f220",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Proair Respiclick ",
+            "fullTitle": "Frontend Tests Test search for drug Proair Respiclick ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "1b5770f2-140f-4689-86e1-e0e29c335ce8",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Sertraline Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Sertraline Hydrochloride ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "c7d8bb5c-ef98-459e-a06c-c95b133a41cf",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Sulfamethoxazole Trimethoprim Ds ",
+            "fullTitle": "Frontend Tests Test search for drug Sulfamethoxazole Trimethoprim Ds ",
+            "timedOut": false,
+            "duration": 2,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "37783aef-d785-4a93-89d1-401bcaf48fb8",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Tamsulosin Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Tamsulosin Hydrochloride ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "f6a3f2a8-593a-4ff6-8a85-fc52ba14d343",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Trazodone Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Trazodone Hydrochloride ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "908df83b-bcf8-445a-82c0-a99292125777",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Venlafaxine Hydrochloride ",
+            "fullTitle": "Frontend Tests Test search for drug Venlafaxine Hydrochloride ",
+            "timedOut": false,
+            "duration": 1,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "56e3d595-2282-4790-8f54-2b8ba8ad79c9",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Test search for drug Yasmin ",
+            "fullTitle": "Frontend Tests Test search for drug Yasmin ",
+            "timedOut": false,
+            "duration": 0,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "let price = undefined;\ntry {\n    await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);\n    await sleep(1250);\n    await driver.findElement(By.id('downshift-simple-item-0')).click();\n    await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);\n    await driver.findElement(By.css('.form-control[name=\"drugStrength\"]')).click();\n    let dosages = await driver.findElements(By.css('.form-control[name=\"drugStrength\"]>option'));\n    for (const dosage of dosages) {\n        let text = await dosage.getText();\n        if (text.includes(drug.Dosage)) {\n            await dosage.click();\n            console.log(\"clicked d\");\n        }\n    }\n    await driver.findElement(By.css('select[name=\"drugQuantity\"]')).click();\n    let quantities = await driver.findElements(By.css('select[name=\"drugQuantity\"]>option'));\n    for (const quantity of quantities) {\n        let text = await quantity.getText();\n        if (text.includes(drug.Quantity)) {\n            await quantity.click();\n            console.log(\"clicked q\");\n        }\n    }\n    await driver.findElement(By.css('.form-control.pointer')).click();\n    await driver.wait(async function() {\n        return await driver.getCurrentUrl() === globals.SITE + \"/#/viewdrugs\";\n    });\n    price = await driver.findElement(By.css('.overallPrice.col-sm>.headerhelp')).getText();\n    await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();\n    chai.assert.isTrue(price !== undefined);\n} catch (e) {\n    await driver.findElement(By.id('downshift-simple-input')).clear();\n    await driver.findElement(By.id('myZipCode')).clear();\n    console.log(e);\n    chai.assert.isTrue(false);\n}",
+            "err": {
+              "message": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)",
+              "estack": "SessionNotCreatedError: session not created\nfrom chrome not reachable\n  (Session info: chrome=76.0.3809.132)\n    at Object.throwDecodedError (node_modules\\selenium-webdriver\\lib\\error.js:550:15)\n    at parseHttpResponse (node_modules\\selenium-webdriver\\lib\\http.js:560:13)\n    at Executor.execute (node_modules\\selenium-webdriver\\lib\\http.js:486:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"
+            },
+            "isRoot": false,
+            "uuid": "7282e8f4-9a99-4afa-a22e-cdb9864010d6",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [
+          "2ff9600c-a285-4151-b400-829cded614af",
+          "5e40163b-b488-4dc5-b38c-12d07cfea19e",
+          "789b0f07-316f-4050-a813-fe172f645233",
+          "2521163f-b002-435c-98e1-753774dc0628",
+          "7d9f5706-0691-456a-8a29-53382df8438f",
+          "25d861de-8eb2-4de6-9152-699a71705637",
+          "2f3f1c30-665d-4189-8de9-bec39f0d9e56",
+          "410a602f-bd09-4c2b-95b7-6bfd93e593cb",
+          "5060ada0-f9e1-4fb2-966b-7222586d0b9c",
+          "29d9658c-83e1-41a8-bf9c-3f72a7f628bd",
+          "c9075435-3744-4c4d-82ff-30ad1d320d56",
+          "942cdddd-c35e-4b09-b4c9-3d1ebf86264e",
+          "fad38e6c-8de0-4b69-9994-2a6aa906525a",
+          "6b577453-e932-408e-ad94-828076e170d8",
+          "4bc1d0d7-3393-4037-846c-0623b7d73f34",
+          "ba3a58ab-2d0d-4504-bcae-8459d81b9812",
+          "89590458-3d67-4379-aff8-89dceee361b6",
+          "6f5f9cc2-cb67-4416-8fd4-7f9974a73ed4",
+          "8393926b-6d94-428b-973d-905696f54463",
+          "97e238ee-a3d5-46ee-b5cf-4c819a377518",
+          "1e311335-c2c5-47d9-a116-f32600e6e7c0",
+          "95b95cc0-476b-4c48-a4d7-06d6d71b80e6",
+          "8ef4887e-aec5-4b2d-9dac-11326349e044",
+          "98c86f88-3c28-40ae-8393-5823a7b661fe",
+          "d42b0b40-7041-49ad-9e31-de4f2366f220",
+          "1b5770f2-140f-4689-86e1-e0e29c335ce8",
+          "c7d8bb5c-ef98-459e-a06c-c95b133a41cf",
+          "37783aef-d785-4a93-89d1-401bcaf48fb8",
+          "f6a3f2a8-593a-4ff6-8a85-fc52ba14d343",
+          "908df83b-bcf8-445a-82c0-a99292125777",
+          "56e3d595-2282-4790-8f54-2b8ba8ad79c9",
+          "7282e8f4-9a99-4afa-a22e-cdb9864010d6"
+        ],
+        "pending": [],
+        "skipped": [],
+        "duration": 7544,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 15000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

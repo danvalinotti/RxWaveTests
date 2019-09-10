@@ -1,0 +1,38 @@
+{
+  "name": "rxwavetests",
+  "version": "1.0.0",
+  "description": "Test suites used for QA testing on RxWave",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "npm run test dev",
+    "qa": "npm run test qa" ,
+    "prod": "npm run test prod",
+    "test": "mocha test --reporter mochawesome --reportDir C:\\Users\\dvalinotti\\Desktop\\GalaxE_Workspace\\RxWavetests\\mochawesome-report\\ --reportFileName mochawesome.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danvalinotti/RxWaveTests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danvalinotti/RxWaveTests/issues"
+  },
+  "homepage": "https://github.com/danvalinotti/RxWaveTests#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "76.0.1",
+    "dotenv": "^8.1.0",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.0.3",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "pg": "^7.12.1",
+    "zipcodes": "^8.0.0"
+  }
+}
