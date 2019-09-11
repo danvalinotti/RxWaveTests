@@ -52,4 +52,7 @@ switch(process.argv[9]) {
         }; break;
 }
 
+glb.SITE_USERNAME = "admin@galaxe.com";
+glb.SITE_PASSWORD = "password";
+
 module.exports = glb;
