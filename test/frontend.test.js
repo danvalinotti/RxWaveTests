@@ -25,6 +25,8 @@ let driver;
             // Build Chrome WebDriver
             before(() => {
                 dl_dir = __dirname + "\\downloads";
+
+                // Set chrome options
                 let options = new chrome.Options();
                 options.setUserPreferences({
                     "plugins.plugins_list": [{"enabled":false,"name":"Chrome PDF Viewer"}],
@@ -33,6 +35,9 @@ let driver;
                         "default_directory"  : dl_dir
                     }
                 });
+                options.addArguments('--disable-application-cache', '--incognito');
+            
+                // Build chromedriver instance
                 driver = new webdriver.Builder()
                     .forBrowser('chrome')
                     .setChromeOptions(options)
@@ -41,9 +46,9 @@ let driver;
 
             // Login Tests suite
             describe ('Login tests', async function() {
-
+                
                 // Tests if login page loads
-                it ('Test page load', async function() {
+                it ('Test page load', async function() {                    
                     await driver.get(globals.SITE);
                     let title = await driver.getTitle();
                     chai.assert.equal(title, 'Inside Rx');
@@ -255,6 +260,36 @@ let driver;
                     });     // End specific drug tests
                 });     // End drugs loop
             });     // End Drug Search test suite
+
+            // Admin View test suite
+            describe('Admin View tests', async function() {
+
+                // Page load test
+                it ('Test if admin view loads', async function() {
+                    // Click top-right button and click admin view
+                    await driver.findElement(By.css('.MuiButtonBase-root.MuiButton-root.MuiButton-text')).click();
+                    await driver.wait(async function() {
+                        try {
+                            let dropDownItems = await driver.findElements(By.css('.MuiButtonBase-root.MuiListItem-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiListItem-gutters.MuiListItem-button'));
+                        await dropDownItems[1].click();
+                            return true;
+                        } catch(e) {
+                            return false;
+                        }
+                    });
+
+                    // Check if current URL is that of the admin page
+                    let url = await driver.getCurrentUrl();
+                    chai.assert.isTrue(url === globals.SITE + "/#/admin/manage/users");
+                });     //End page load test
+
+                // TODO: Manage users -> add user
+                //       Manage alerts -> add alert
+                //       Manage requests -> add request
+
+            });     // End Admin View test suite
+
+            // TODO: General -> logout test
 
             // Quit driver when finished testing
             after(() => {

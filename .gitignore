@@ -9,4 +9,6 @@ mochawesome-report/**
 mochawesome-report/**/**
 downloads
 downloads/*
+test/downloads
+test/downloads/*
 debug.log

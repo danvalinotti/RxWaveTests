@@ -4,7 +4,6 @@
   "description": "Test suites used for QA testing on RxWave",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
     "dev": "npm run test dev",
     "qa": "npm run test qa" ,
     "prod": "npm run test prod",
