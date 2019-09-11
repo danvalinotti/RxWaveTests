@@ -2,7 +2,9 @@
 Mocha Test Suites for QA testing RxWave
 
 ## Installation 
-Run `npm install`
+1. Run `npm install`
+2. Set up `.env` based on Private Documentation
+3. Create `downloads` directory in project root
 
 ## Tests
 1. `npm run dev`
