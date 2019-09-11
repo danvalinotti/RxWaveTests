@@ -21,9 +21,10 @@ let driver;
         describe ('Frontend Tests', async function() {
             this.timeout(15000);
             let dl_dir;
+            
             // Build Chrome WebDriver
             before(() => {
-                dl_dir = "C:\\Users\\dvalinotti\\Desktop\\GalaxE_Workspace\\RxWaveTests\\downloads";
+                dl_dir = __dirname + "\\downloads";
                 let options = new chrome.Options();
                 options.setUserPreferences({
                     "plugins.plugins_list": [{"enabled":false,"name":"Chrome PDF Viewer"}],
@@ -46,7 +47,7 @@ let driver;
                     await driver.get(globals.SITE);
                     let title = await driver.getTitle();
                     chai.assert.equal(title, 'Inside Rx');
-                });
+                });     // End login page load test
 
                 // Test is login with admin creds is successful    
                 it ('Test login authentication', async function() {
@@ -61,8 +62,8 @@ let driver;
                     let url = await driver.getCurrentUrl();
     
                     chai.assert.equal(url, globals.SITE + '/#/search');
-                });
-            });
+                });     // End login auth test
+            });     // End Login test suite
 
             // Dashboard page Test Suite
             describe ('Dashboard Page Tests', async function() {
@@ -83,7 +84,7 @@ let driver;
 
                     let currentUrl = await driver.getCurrentUrl();
                     chai.assert.isTrue(currentUrl === globals.SITE + "/#/viewDashboard");
-                });
+                });     // End page load test
 
                 // Test if prices in report are not $0.00
                 it ('Test if prices display', async function() {
@@ -97,8 +98,8 @@ let driver;
                     }
 
                     chai.assert.isTrue(pass);
-                })
-            });
+                });     // End price display test
+            });     // End Dashboard test suite
 
             // Reports page Test Suite
             describe('Reports Page Tests', async function() {
@@ -119,7 +120,7 @@ let driver;
 
                     let currentUrl = await driver.getCurrentUrl();
                     chai.assert.isTrue(currentUrl === globals.SITE + "/#/reports");
-                });
+                });     // End page load test
 
                 // Downloads latest report and tests if file exists
                 it ('Test if latest report successfully downloads', async function() {
@@ -138,11 +139,12 @@ let driver;
                     }
 
                     chai.assert.isTrue(found);
-                });
-            });
+                });     // End download test
+            });     // End Dashboard test suite
 
             // Drug Search test suite
             describe ('Drug Search Tests', async function() {
+                
                 // Loop through list of drugs in `drugs.js`
                 drugs.forEach((drug) => {
 
@@ -178,6 +180,7 @@ let driver;
                                         // console.log("clicked d");
                                     }
                                 }
+
                                 // Finds correct quantity and selects
                                 await driver.findElement(By.css('select[name="drugQuantity"]')).click();
                                 let quantities = await driver.findElements(By.css('select[name="drugQuantity"]>option'));
@@ -233,6 +236,11 @@ let driver;
                                 );
                             }
                         });
+
+                        // Test WellRx price exists
+                        it ('Check if price exists for WellRx', function() {
+                            chai.assert.isTrue(prices[3] !== "N/A");
+                        });
                         
                         // Test Blink Health price exists
                         it ('Check if price exists for Blink Health', function() {
@@ -243,9 +251,10 @@ let driver;
                         it ('Check if price exists for GoodRx', function() {
                             chai.assert.isTrue(prices[5] !== "N/A");
                         });
-                    });
-                });
-            });
+
+                    });     // End specific drug tests
+                });     // End drugs loop
+            });     // End Drug Search test suite
 
             // Quit driver when finished testing
             after(() => {
