@@ -24,7 +24,8 @@ switch(process.argv[9]) {
                 database: process.env.QA_DB,
                 username: process.env.QA_DB_USERNAME,
                 password: process.env.QA_DB_PASSWORD
-            }
+            },
+            DRUG_MASTER: []
         }; break;
     case 'prod':
         glb = {
