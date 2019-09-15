@@ -9,7 +9,7 @@ const drug_requests = require('../../lib/drug_requests');
 const axios = require('axios').default;
 const {sleep} = require('../lib/utils');
 const {serializeDrugName} = require('../lib/utils');
-const {genReport} = require('../lib/genReport');
+const {genReport} = require('../../lib/genReport');
 
 chai.use(chaiAsPromised);
 process.on('unhandledRejection', () => {});

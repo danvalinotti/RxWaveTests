@@ -2,7 +2,8 @@ node_modules
 .env
 debug.log
 package-lock.json
-vscode
+.vscode
+.vscode/*
 .idea
 mochawesome-report
 mochawesome-report/**
