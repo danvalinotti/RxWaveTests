@@ -1,0 +1,5822 @@
+[
+  {
+    "name": "Acyclovir",
+    "dosageStrength": "400 mg",
+    "quantity": 60,
+    "ndc": "00093894301",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "14.85",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "11.76",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "13.38",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "22.01",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "14.99",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "12.52400016784668",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "AmLODIPine Besylate",
+    "dosageStrength": "5",
+    "quantity": 30,
+    "ndc": "00054010122",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.26",
+        "pharmacy": "RALPH'S PHARMACY #39"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "3.99",
+        "pharmacy": "FAIRFAX DISCOUNT PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.29",
+        "pharmacy": "FAIRFAX DISCOUNT PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "6.04",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.92",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "AmLODIPine Besylate",
+    "dosageStrength": "10",
+    "quantity": 30,
+    "ndc": "00054010222",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "14.2",
+        "pharmacy": "RALPH'S PHARMACY #39"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.25",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.86",
+        "pharmacy": "FAIRFAX DISCOUNT PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "5.52",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Amoxicillin-Clavulanate",
+    "dosageStrength": "875 mg-125 mg",
+    "quantity": 60,
+    "ndc": "00781185220",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "25.45",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "60.18",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "25.75",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "31.8",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "37.73",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "54.36",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "13.147143363952637",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Atorvastatin Calcium",
+    "dosageStrength": "80 mg",
+    "quantity": 30,
+    "ndc": "00093505798",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "11.85",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "63.08",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "9.04",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.9",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "26.49",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "8.93",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "11.903999328613281",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Atorvastatin Calcium",
+    "dosageStrength": "40 mg",
+    "quantity": 30,
+    "ndc": "00093505898",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.4",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "16.69",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "8.25",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "29.27",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "8.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "7.680999755859375",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Atorvastatin Calcium",
+    "dosageStrength": "20 mg",
+    "quantity": 30,
+    "ndc": "00093505998",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.4",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "34.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "8.16",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "12.78",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "8.7",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "6.769000053405762",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Azithromycin",
+    "dosageStrength": "250 mg",
+    "quantity": 30,
+    "ndc": "00781577669",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": false,
+        "program_name": "InsideRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "24.42",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "23.83",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "36.39",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "21.92",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "41.35",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "22.947200775146484",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Basaglar KwikPen",
+    "dosageStrength": "100 units/mL",
+    "quantity": 15,
+    "ndc": "00002771559",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "250.91",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "428.64",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "359.38",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "351.05",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "250.9099884033203",
+        "pharmacy": "CVS Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Cephalexin Monohydrate",
+    "dosageStrength": "500 mg (capsules)",
+    "quantity": 60,
+    "ndc": "68180012202",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "12.23",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "21.12",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "11.94",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "18.23",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "0.84",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "14.61",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "12.225713729858398",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Ciprofloxacin Hydrochloride",
+    "dosageStrength": "500 mg",
+    "quantity": 60,
+    "ndc": "00143203701",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "43.74",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "43.17",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "20.99",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "10.06",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "27.7",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "10.0",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "Citalopram Hydrobromide",
+    "dosageStrength": "40 mg",
+    "quantity": 30,
+    "ndc": "00185037301",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.74",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "11.53",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "6.49",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.95",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "5.38",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Citalopram Hydrobromide",
+    "dosageStrength": "20 mg",
+    "quantity": 30,
+    "ndc": "00378623201",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.57",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "10.06",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.0",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.3",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "7.35",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.92",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Clindamycin Hydrochloride",
+    "dosageStrength": "150 mg",
+    "quantity": 120,
+    "ndc": "00527138201",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "23.21",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "68.47",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "25.06",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "37.14",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "24.74",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "33.74",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "10.002666473388672",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Clindamycin Hydrochloride",
+    "dosageStrength": "300 mg",
+    "quantity": 120,
+    "ndc": "00527138301",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "69.41",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "192.01",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "46.15",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "72.03",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "174.97",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "77.42",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "14.806999206542969",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "ClomiPHENE Citrate",
+    "dosageStrength": "50 mg",
+    "quantity": 30,
+    "ndc": "00093004103",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "32.57",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "32.62",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "32.62",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "32.78",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "47.32",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "17.80994987487793",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Clopidogrel Bisulfate",
+    "dosageStrength": "75 mg",
+    "quantity": 30,
+    "ndc": "60505025303",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "32.98",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "18.5",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.61",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "10.02",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "28.43",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "8.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "9.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Contrave",
+    "dosageStrength": "90 mg-8 mg",
+    "quantity": 120,
+    "ndc": "51267089099",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "272.11",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "292.72",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "282.18",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "296.56",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "288.55",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "296.53",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "272.1050109863281",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Cyclobenzaprine Hydrochloride",
+    "dosageStrength": "10 mg",
+    "quantity": 90,
+    "ndc": "00378075101",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "14.85",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "27.69",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "9.75",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "13.62",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "4.0",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "9.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "6.539999961853027",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Diclegis",
+    "dosageStrength": "10 mg-10 mg",
+    "quantity": 60,
+    "ndc": "55494010010",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "128.67",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "414.66",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "415.01",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "437.65",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "425.57",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "436.06",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "121.61376953125",
+        "pharmacy": "CVS Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Dilantin",
+    "dosageStrength": "100 mg",
+    "quantity": 90,
+    "ndc": "00071036924",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "113.79",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "124.4",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "121.74",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "126.29",
+        "pharmacy": "KROGER SPECIALTY PHARMACY CA 2"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "126.71",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "22.1510009765625",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Ergocalciferol",
+    "dosageStrength": "50,000 intl units",
+    "quantity": 4,
+    "ndc": "57664013688",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.1",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.34",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "4.33",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "4.88",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "5.3815999031066895",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Escitalopram Oxalate",
+    "dosageStrength": "10 mg",
+    "quantity": 30,
+    "ndc": "00093585101",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "11.17",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "17.15",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.65",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "7.21",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "29.13",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "8.62",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "7.206000328063965",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Ethinyl Estradiol-Norgestimate",
+    "dosageStrength": "35 mcg-0.25 mg",
+    "quantity": 30,
+    "ndc": "17478026006",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "11.07",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "13.84",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "18.5",
+        "pharmacy": "CVS PHARMACY #03825"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "9.03",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "20.93",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "138.4400177001953",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Finasteride",
+    "dosageStrength": "5 mg",
+    "quantity": 30,
+    "ndc": "00093735505",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "9.58",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "22.89",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "8.07",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "10.42",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "11.32",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "9.94",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "8.600000381469727",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Finasteride",
+    "dosageStrength": "1 mg",
+    "quantity": 30,
+    "ndc": "00378503577",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "31.34",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "12.33",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "13.8",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "20.86",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "19.96",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "10.594999313354492",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Flovent HFA",
+    "dosageStrength": "CFC free 44 mcg/inh",
+    "quantity": 10.6,
+    "ndc": "00173071820",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "187.35",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "186.86",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "200.67",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "189.65",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "201.7",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "187.3450164794922",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "Flovent HFA",
+    "dosageStrength": "CFC free 110 mcg/inh",
+    "quantity": 12,
+    "ndc": "00173071920",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "248.67",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "264.12",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "267.62",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "252.71",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "267.92",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "248.6699981689453",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Fluconazole",
+    "dosageStrength": "150 mg",
+    "quantity": 30,
+    "ndc": "00172541211",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "96.6",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "27.09",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "34.48",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "69.12",
+        "pharmacy": "CVS PHARMACY #03825"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "20.83",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "129.47",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "5.260000228881836",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Fluoxetine Hydrochloride",
+    "dosageStrength": "20 mg (capsules)",
+    "quantity": 30,
+    "ndc": "65862019399",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.75",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "10.89",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.24",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "14.34",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Gabapentin",
+    "dosageStrength": "600 mg",
+    "quantity": 90,
+    "ndc": "00093444301",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "19.39",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "17.53",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "21.32",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "42.66",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "Gabapentin",
+    "dosageStrength": "800 mg",
+    "quantity": 90,
+    "ndc": "00093444401",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "20.95",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "19.4",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "19.4",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "49.4",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "Gabapentin",
+    "dosageStrength": "300 mg",
+    "quantity": 90,
+    "ndc": "69097094312",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "12.55",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "18.73",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "10.88",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "12.0",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "11.16",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "11.4",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "14.833999633789062",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Humalog U-100",
+    "dosageStrength": "100 units/mL",
+    "quantity": 10,
+    "ndc": "00002751001",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "172.15",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "85.41",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "293.38",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "68.38436889648438",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "Humalog U-100 KwikPen",
+    "dosageStrength": "100 units/mL",
+    "quantity": 15,
+    "ndc": "00002879959",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "327.44",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "126.62",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "565.42",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "126.45382690429688",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "Humulin N",
+    "dosageStrength": "human recombinant 100 units/mL",
+    "quantity": 10,
+    "ndc": "00002831501",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "96.75",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "344.13",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "362.36",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "144.99",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "96.75",
+        "pharmacy": "CVS Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "HydroCHLOROthiazide",
+    "dosageStrength": "25 mg",
+    "quantity": 30,
+    "ndc": "00172208360",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "6.85",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "2.68",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "2.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "4.19",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "4.61",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.94",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "3.0972158908843994",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Hydrochlorothiazide-Losartan",
+    "dosageStrength": "25 mg-100 mg",
+    "quantity": 30,
+    "ndc": "00093736810",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "27.92",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "38.3",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "2.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "4.19",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "21.67",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "11.64",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "8.141666412353516",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Hydrochlorothiazide-Losartan",
+    "dosageStrength": "12.5 mg-100 mg",
+    "quantity": 30,
+    "ndc": "00093736910",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.15",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "19.81",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "7.57",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "7.35",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "17.31",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "9.85",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "7.753199577331543",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Ibuprofen",
+    "dosageStrength": "800 mg",
+    "quantity": 90,
+    "ndc": "00904585561",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "19.0",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "21.94",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "12.62",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "14.43",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "8.75",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "13.29",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "8.925299644470215",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Lantus",
+    "dosageStrength": "100 units/mL",
+    "quantity": 10,
+    "ndc": "00088222033",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "213.25",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "298.53",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "287.71",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "302.44",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "265.59",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "213.23500061035156",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Lantus Solostar Pen",
+    "dosageStrength": "100 units/mL",
+    "quantity": 15,
+    "ndc": "00088221905",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "357.41",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "444.87",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "287.71",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "452.16",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "391.64",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "58.78200149536133",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Latanoprost Ophthalmic",
+    "dosageStrength": "0.005%",
+    "quantity": 2.5,
+    "ndc": "24208046325",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "15.57",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "12.18",
+        "pharmacy": "Rite Aid Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "8.63",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "12.08",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "10.42",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "13.65",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "18.579999923706055",
+        "pharmacy": "CVS Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Levothyroxine Sodium",
+    "dosageStrength": "50 mcg (0.05 mg)",
+    "quantity": 30,
+    "ndc": "00378180310",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.15",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "8.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "9.92",
+        "pharmacy": "CVS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "10.44",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "8.07",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "16.52",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Levothyroxine Sodium",
+    "dosageStrength": "75 mcg (0.075 mg)",
+    "quantity": 30,
+    "ndc": "00378180510",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.59",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "9.18",
+        "pharmacy": "Rite Aid Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "11.51",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.22",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "9.66",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "17.69",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Levothyroxine Sodium",
+    "dosageStrength": "88 mcg (0.088 mg)",
+    "quantity": 30,
+    "ndc": "00378180710",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "11.38",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "8.67",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "10.6",
+        "pharmacy": "RXALL PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.36",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "6.89",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "20.97",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Levothyroxine Sodium",
+    "dosageStrength": "100 mcg (0.1 mg)",
+    "quantity": 30,
+    "ndc": "00378180910",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "11.09",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "9.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "11.42",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.43",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "10.68",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "18.08",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Levothyroxine Sodium",
+    "dosageStrength": "125 mcg (0.125 mg)",
+    "quantity": 30,
+    "ndc": "00378181310",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "11.25",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "11.41",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "11.99",
+        "pharmacy": "KROGER SPECIALTY PHARMACY CA 2"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.99",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "9.37",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "20.81",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "3.9810001850128174",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Liothyronine Sodium",
+    "dosageStrength": "5 mcg",
+    "quantity": 30,
+    "ndc": "00378361101",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "14.33",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "18.24",
+        "pharmacy": "CVS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "15.75",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "14.59",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "43.71",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "14.239999771118164",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Lipitor",
+    "dosageStrength": "10 mg",
+    "quantity": 30,
+    "ndc": "00071015523",
+    "latitude": 40.5826,
+    "longitude": -74.2785,
+    "zipcode": "07001",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "insideRx",
+        "price": "348.41",
+        "pharmacy": "THE EXPRESS SCRIPTS PHARMACY FOR INSIDE RX"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "usPharmacyCard",
+        "price": "326.96",
+        "pharmacy": "WALMART PHARMACY"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "wellRx",
+        "price": "332.4600",
+        "pharmacy": "SHOPRITE PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "medImpact",
+        "price": "332.11",
+        "pharmacy": "WALMART PHARMACY 10-3469"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "singlecare",
+        "price": "335.26",
+        "pharmacy": "CVS PHARMACY"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "Coming soon"
+      }
+    ]
+  },
+  {
+    "name": "Lisinopril",
+    "dosageStrength": "10 mg",
+    "quantity": 30,
+    "ndc": "00143126701",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "9.2",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "6.74",
+        "pharmacy": "CVS PHARMACY #03825"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.0",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.3",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "3.49",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.92",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Lisinopril",
+    "dosageStrength": "40 mg",
+    "quantity": 30,
+    "ndc": "00143127001",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.77",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "9.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.63",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.54",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "7.99",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "7.46",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "6.539999961853027",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Lisinopril",
+    "dosageStrength": "20 mg",
+    "quantity": 30,
+    "ndc": "00143971301",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "9.13",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "7.95",
+        "pharmacy": "CVS PHARMACY #03825"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.0",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.85",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "3.0",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.92",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Losartan Potassium",
+    "dosageStrength": "25 mg",
+    "quantity": 30,
+    "ndc": "00054012322",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "19.86",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.07",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.16",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "13.39",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "Losartan Potassium",
+    "dosageStrength": "50 mg",
+    "quantity": 30,
+    "ndc": "00054012422",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "24.67",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "6.86",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "7.79",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "7.21",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Losartan Potassium",
+    "dosageStrength": "100 mg",
+    "quantity": 30,
+    "ndc": "00054012522",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "28.99",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "6.86",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.43",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "11.25",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Meloxicam",
+    "dosageStrength": "15 mg",
+    "quantity": 30,
+    "ndc": "76282015310",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "7.94",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "17.98",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.88",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.21",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "12.86",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.92",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.003999710083008",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "MetFORMIN Hydrochloride",
+    "dosageStrength": "500 mg",
+    "quantity": 60,
+    "ndc": "00093104810",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "7.83",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.2",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.29",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "5.62",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "4.0",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "MetFORMIN Hydrochloride",
+    "dosageStrength": "1000 mg",
+    "quantity": 60,
+    "ndc": "00093721410",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.25",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "5.35",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.79",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "8.32",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "4.0",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Metoprolol Tartrate",
+    "dosageStrength": "25 mg",
+    "quantity": 60,
+    "ndc": "00378001801",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.06",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "8.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "6.75",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.95",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "4.03",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "3.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "MetroNIDAZOLE",
+    "dosageStrength": "500 mg",
+    "quantity": 14,
+    "ndc": "50111033401",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.8",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "7.52",
+        "pharmacy": "Rite Aid Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "9.11",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "8.1",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "5.98",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "11.94",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "8.095300674438477",
+        "pharmacy": "Rite Aid"
+      }
+    ]
+  },
+  {
+    "name": "Montelukast Sodium",
+    "dosageStrength": "10 mg",
+    "quantity": 30,
+    "ndc": "00054025913",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "10.85",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "37.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "7.24",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.68",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "25.55",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "10.15999984741211",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Mupirocin",
+    "dosageStrength": "2%",
+    "quantity": 22,
+    "ndc": "00093101042",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "13.2",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "24.28",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "10.73",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "12.9",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "9.15",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "14.65",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "127.82980346679688",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "Nitrofurantoin Monohydrate-Macrocrystals",
+    "dosageStrength": "macrocrystals-monohydrate 100 mg",
+    "quantity": 60,
+    "ndc": "00185012201",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "59.1",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "77.46",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "51.55",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "71.1",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "33.75",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "123.8",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "16.96500015258789",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Novolin 70-30",
+    "dosageStrength": "human recombinant 70 units-30 units/mL",
+    "quantity": 10,
+    "ndc": "00169183711",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "28.39",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "142.7",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "153.37",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "128.46",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "150.03",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "24.8799991607666",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Novolin N",
+    "dosageStrength": "human recombinant 100 units/mL",
+    "quantity": 10,
+    "ndc": "00169183411",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "28.39",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "146.26",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "142.7",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "160.03",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "125.19",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "150.03",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "24.8799991607666",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Novolin R",
+    "dosageStrength": "human recombinant 100 units/mL",
+    "quantity": 10,
+    "ndc": "00169183311",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "28.39",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "153.64",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "160.03",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "125.19",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "150.03",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "24.8799991607666",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Omeprazole",
+    "dosageStrength": "20 mg Capsule DR",
+    "quantity": 30,
+    "ndc": "60505395203",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "18.89",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "12.11",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "2.92",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.02",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "16.91",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "3.3610000610351562",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Pantoprazole",
+    "dosageStrength": "40 mg",
+    "quantity": 30,
+    "ndc": "00093001298",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "18.23",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "24.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.72",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "7.07",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "23.05",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "7.7",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "7.0701003074646",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Pravastatin Sodium",
+    "dosageStrength": "40 mg",
+    "quantity": 30,
+    "ndc": "00093720210",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "17.15",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "19.04",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "8.67",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "11.9",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "30.06",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "11.3",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "11.460999488830566",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "PredniSONE",
+    "dosageStrength": "10 mg",
+    "quantity": 30,
+    "ndc": "00054001720",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "7.81",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "6.2",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "7.21",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "8.14",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "4.17",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "10.33",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.8480000495910645",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "PredniSONE",
+    "dosageStrength": "20 mg",
+    "quantity": 30,
+    "ndc": "00054001829",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "7.93",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "6.8",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "7.64",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "9.77",
+        "pharmacy": "KROGER SPECIALTY PHARMACY CA 2"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "3.18",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "15.69",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "5.0",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "PrednisoLONE Acetate, Ophthalmic",
+    "dosageStrength": "acetate 1%",
+    "quantity": 5,
+    "ndc": "61314063705",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "42.86",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "24.69",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "3.8",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "51.18",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "80.84999084472656",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Premarin",
+    "dosageStrength": "0.625 mg",
+    "quantity": 30,
+    "ndc": "00046110281",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "159.08",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "178.61",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "173.51",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "397.48",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "177.18",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "159.0699920654297",
+        "pharmacy": "CVS Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Premarin",
+    "dosageStrength": "1.25 mg",
+    "quantity": 30,
+    "ndc": "00046110481",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "159.08",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "178.61",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "173.51",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "181.13",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "177.19",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "159.0699920654297",
+        "pharmacy": "CVS Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "ProAir RespiClick",
+    "dosageStrength": "90 mcg/inh",
+    "quantity": 1,
+    "ndc": "59310058020",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "57.55",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "65.87",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "64.91",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "67.1",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "60.91",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "69.62",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "QVAR RediHaler",
+    "dosageStrength": "40 mcg/inh",
+    "quantity": 10.6,
+    "ndc": "59310030240",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "157.89",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "179.23",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "210.86",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "220.8",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "177.76",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "193.62",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "QVAR RediHaler",
+    "dosageStrength": "80 mcg/inh",
+    "quantity": 10.6,
+    "ndc": "59310030480",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "210.76",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "239.13",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "280.36",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "294.62",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "236.81",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "257.13",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "SUMAtriptan Succinate",
+    "dosageStrength": "100 mg",
+    "quantity": 90,
+    "ndc": "00378563259",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "69.61",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "916.04",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "93.81",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "435.1",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "129.0",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "55.88719940185547",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Sertraline Hydrochloride",
+    "dosageStrength": "100 mg",
+    "quantity": 30,
+    "ndc": "00143965430",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "13.98",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.65",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "6.52",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "17.35",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "8.95",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "6.515999794006348",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Sertraline Hydrochloride",
+    "dosageStrength": "50 mg",
+    "quantity": 30,
+    "ndc": "00143965530",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "14.63",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "14.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "4.65",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "7.17",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "13.11",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "6.5",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "7.166999816894531",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Sildenafil Citrate",
+    "dosageStrength": "20 mg",
+    "quantity": 90,
+    "ndc": "13668018590",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "39.99",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "133.06",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "40.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "195.96",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "116.64",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "22.156999588012695",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Sildenafil Citrate",
+    "dosageStrength": "50 mg",
+    "quantity": 6,
+    "ndc": "59762003501",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "12.99",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "127.86",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "21.95",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "128.13",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "18.45",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "11.68179988861084",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Sildenafil Citrate",
+    "dosageStrength": "100",
+    "quantity": 6,
+    "ndc": "59762003601",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "12.99",
+        "pharmacy": "RALPH'S PHARMACY #39"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "79.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "8.93",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "5.53",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "84.66",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "11.586199760437012",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Sulfamethoxazole-Trimethoprim DS",
+    "dosageStrength": "800 mg-160 mg",
+    "quantity": 60,
+    "ndc": "00093008901",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "18.05",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "11.25",
+        "pharmacy": "LG PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "13.96",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "8.55",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "18.85",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "11.970000267028809",
+        "pharmacy": "Walgreens"
+      }
+    ]
+  },
+  {
+    "name": "Symbicort",
+    "dosageStrength": "160 mcg-4.5 mcg/inh (120 doses)",
+    "quantity": 10.2,
+    "ndc": "00186037020",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "331.3",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "357.49",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "350.62",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "369.26",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "360.6",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "396.53",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "331.2999572753906",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Tadalafil",
+    "dosageStrength": "5 mg",
+    "quantity": 30,
+    "ndc": "66993070130",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "27.45",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "119.99",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "31.4",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "82.58",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "29.95",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "21.362998962402344",
+        "pharmacy": "Costco"
+      }
+    ]
+  },
+  {
+    "name": "Tadalafil",
+    "dosageStrength": "20 mg",
+    "quantity": 6,
+    "ndc": "66993070330",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "26.46",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "153.28",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": false,
+        "program_name": "WellRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "27.05",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "95.31",
+        "pharmacy": "Pavilions Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "14.95",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "13.639999389648438",
+        "pharmacy": "Albertsons"
+      }
+    ]
+  },
+  {
+    "name": "Tamsulosin Hydrochloride",
+    "dosageStrength": "0.4 mg",
+    "quantity": 30,
+    "ndc": "00228299611",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "12.4",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "19.42",
+        "pharmacy": "RITE AID PHARMACY 06211"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "6.96",
+        "pharmacy": "SAVON PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "9.4",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "20.45",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "10.21",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "9.399900436401367",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Terbinafine Hydrochloride",
+    "dosageStrength": "250 mg",
+    "quantity": 30,
+    "ndc": "16714050101",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "8.73",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "18.05",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "6.91",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "8.92",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "18.05",
+        "pharmacy": "Ralphs Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "10.96",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "8.729999542236328",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "TraZODone Hydrochloride",
+    "dosageStrength": "50 mg",
+    "quantity": 90,
+    "ndc": "50111043303",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "30.42",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "18.41",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "9.77",
+        "pharmacy": "WALGREENS"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "16.06",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "6.02",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "9.9",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "4.0",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Tri-Luma",
+    "dosageStrength": "0.01%-4%-0.05%",
+    "quantity": 30,
+    "ndc": "00299595030",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "206.99",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "213.86",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "207.08",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "216.79",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "217.14",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "217.65",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": false,
+        "program_name": "GoodRx",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      }
+    ]
+  },
+  {
+    "name": "Trintellix",
+    "dosageStrength": "20 mg",
+    "quantity": 30,
+    "ndc": "64764075030",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "356.7",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "402.14",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "387.24",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "408.15",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "398.52",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "406.89",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "356.6900634765625",
+        "pharmacy": "Albertsons"
+      }
+    ]
+  },
+  {
+    "name": "Venlafaxine Hydrochloride",
+    "dosageStrength": "75 mg",
+    "quantity": 60,
+    "ndc": "00093738201",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "21.62",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": false,
+        "program_name": "US Pharmacy Card",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "17.65",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "20.44",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "71.73",
+        "pharmacy": "Kroger Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "16.4",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "6.633999824523926",
+        "pharmacy": "Walmart"
+      }
+    ]
+  },
+  {
+    "name": "Viagra",
+    "dosageStrength": "100 mg",
+    "quantity": 6,
+    "ndc": "00069422030",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "367.55",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "443.84",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "427.65",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "451.07",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "451.25",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "19.37",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "22.138599395751953",
+        "pharmacy": "Kroger Pharmacy"
+      }
+    ]
+  },
+  {
+    "name": "Yasmin",
+    "dosageStrength": "28 tablets of 3mg/0.03mg",
+    "quantity": 28,
+    "ndc": "50419040203",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "45.13",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "126.83",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "124.08",
+        "pharmacy": "DNM PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "24.81",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "129.17",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": true,
+        "program_name": "Blink",
+        "price": "35.31",
+        "pharmacy": ""
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "19.989601135253906",
+        "pharmacy": "Safeway"
+      }
+    ]
+  },
+  {
+    "name": "Yaz",
+    "dosageStrength": "28 tablets of 3mg/0.02mg",
+    "quantity": 28,
+    "ndc": "50419040503",
+    "latitude": 34.0699,
+    "longitude": -118.3492,
+    "zipcode": "90036",
+    "programs": [
+      {
+        "id": 0,
+        "price_exists": true,
+        "program_name": "InsideRx",
+        "price": "46.92",
+        "pharmacy": "RALPH'S PHARMACY #289"
+      },
+      {
+        "id": 1,
+        "price_exists": true,
+        "program_name": "US Pharmacy Card",
+        "price": "152.67",
+        "pharmacy": "Walgreens"
+      },
+      {
+        "id": 2,
+        "price_exists": true,
+        "program_name": "WellRx",
+        "price": "148.8",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 3,
+        "price_exists": true,
+        "program_name": "MedImpact",
+        "price": "154.89",
+        "pharmacy": "RALPHS PHARMACY"
+      },
+      {
+        "id": 4,
+        "price_exists": true,
+        "program_name": "SingleCare",
+        "price": "155.29",
+        "pharmacy": "CVS Pharmacy"
+      },
+      {
+        "id": 5,
+        "price_exists": false,
+        "program_name": "Blink",
+        "price": "N/A",
+        "pharmacy": "N/A"
+      },
+      {
+        "id": 6,
+        "price_exists": true,
+        "program_name": "GoodRx",
+        "price": "23.254398345947266",
+        "pharmacy": "Safeway"
+      }
+    ]
+  }
+]
