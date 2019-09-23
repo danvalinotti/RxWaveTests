@@ -7,6 +7,9 @@ let Schema = mongoose.Schema;
 let reportSchema = new Schema({
   _id: String,
   createDate: Date,
+  tests: Number,
+  passed: Number,
+  failed: Number,
   numDrugs: Number,
   results: [
     {
@@ -39,8 +42,11 @@ router.post('/new', function(req, res, next) {
   let report = {
     _id: mongoose.Types.ObjectId(),
     createDate: new Date(),
-    numDrugs: results.length,
-    results: results
+    tests: results.tests,
+    passed: results.passed,
+    failed: results.failed,
+    numDrugs: results.report.length,
+    results: results.report
   };
 
   Reports.create(report, function(err, reports) {
@@ -51,7 +57,7 @@ router.post('/new', function(req, res, next) {
 
 /* GET reports listing. */
 router.get('/', function(req, res, next) {
-  Reports.find({}, function (err, reports) {
+  Reports.find({}).sort({createDate: 'desc'}).exec(function (err, reports) {
     if (err) res.json(err);
     else res.json(reports);
   });

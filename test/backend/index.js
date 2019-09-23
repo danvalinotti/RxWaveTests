@@ -24,43 +24,47 @@ let report = [];
 
 describe ('Login tests', function() {
 
-    // it ('Create token ( /create/token )', async function() {
-    //     const profile = {
-    //         password: globals.SITE_PASSWORD,
-    //         username: globals.SITE_USERNAME
-    //     };
+    it ('Create token ( /create/token )', async function() {
+        // const profile = {
+        //     password: globals.SITE_PASSWORD,
+        //     username: globals.SITE_USERNAME
+        // };
 
-    //     console.log(profile);
+        // console.log(profile);
 
-    //     let pass = false;
-    //     try {
-    //         const response = await axios.post(`${globals.API}/create/token`, profile, {
-    //             headers: {
-    //                 'Referrer': 'https://rxwave.galaxe.com',
-    //                 'Origin': 'https://rxwave.galaxe.com',
-    //                 'Content-Type': 'application/json;charset=UTF-8',
-    //                 'Accept': 'application/json, text/plain, */*',
-    //                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
-    //                 'Sec-Fetch-Mode': 'cors'
-    //             }
-    //         });
-    //         console.log(response);
-    //         pass = true;
-    //     } catch(err) {
-    //         console.log(err);
-    //     }
-    //     chai.assert.isTrue(pass);
-    // });
+        // let pass = false;
+        // try {
+        //     const response = await axios.post(`${globals.API}/create/token`, profile, {
+        //         headers: {
+        //             'Referrer': 'https://rxwave.galaxe.com',
+        //             'Origin': 'https://rxwave.galaxe.com',
+        //             'Content-Type': 'application/json;charset=UTF-8',
+        //             'Accept': 'application/json, text/plain, */*',
+        //             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36',
+        //             'Sec-Fetch-Mode': 'cors'
+        //         }
+        //     });
+        //     console.log(response);
+        //     pass = true;
+        // } catch(err) {
+        //     console.log(err);
+        // }
+        // chai.assert.isTrue(pass);
+    });
 });
 
 // Drug Search test suite
 describe ('Drug Search tests', async function() {
     this.slow(10000);
     this.timeout(15000);
+    let tests = 0;
+    let passed = 0;
+    let program_stats = [0,0,0,0,0,0,0]
 
     describe ('Drugmaster endpoint test', function() {
         // Test Get DrugMaster List 
         it ('Test /drugmaster/get/all', async function() {
+            tests += 1;
             let pass = false;
             try {
                 let response = await instance.get(`${globals.API}/drugmaster/get/all`);
@@ -71,6 +75,10 @@ describe ('Drug Search tests', async function() {
                 }
             } catch (error) {
                 console.log(error);
+            }
+            
+            if (pass) {
+                passed += 1;
             }
     
             chai.assert.isTrue(pass);
@@ -84,6 +92,8 @@ describe ('Drug Search tests', async function() {
 
             // Test: Get Drug Info (autocomplete results)
             it (`Test /getDrugInfo/${drug.name}`, async function() {
+                tests += 1;
+
                 let pass = false;
                 try {
                     const response = await instance.get(`${globals.API}/getDrugInfo/${drug.name}`);
@@ -96,11 +106,17 @@ describe ('Drug Search tests', async function() {
                     console.log(error);
                 }
                 await sleep(1000);
+
+                if (pass) {
+                    passed += 1;
+                }
     
                 chai.assert.isTrue(pass);
             });     // End /getDrugInfo/{name} test
             // Test: Search and recieve response
             it ('Test successful search', async function() {
+                tests += 1;
+
                 let pass = false;
                 try {
                     const options = {
@@ -141,6 +157,10 @@ describe ('Drug Search tests', async function() {
                 }
 
                 report.push(reportData);
+
+                if (pass) {
+                    passed += 1;
+                }
     
                 chai.assert.isTrue(pass);
             });
@@ -154,16 +174,109 @@ describe ('Drug Search tests', async function() {
             // it ('Test: Blink Health price exists', function() {
             //     chai.assert.isTrue(data.programs[5].price !== 'N/A');
             // });
+
+            // Test for InsideRx result
+            it ('Test: InsideRx price exists', function() {
+                tests += 1;
+                let pass = data.programs[0].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[0] += 1;
+                }
+
+                chai.assert.isTrue(pass);
+            });
+
+            // Test for UsPharm result
+            it ('Test: UsPharmCard price exists', function() {
+                tests += 1;
+                let pass = data.programs[1].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[1] += 1;
+                }
+
+                chai.assert.isTrue(pass);
+            });
+
+            // Test for WellRX result
+            it ('Test: WellRX price exists', function() {
+                tests += 1;
+                let pass = data.programs[2].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[2] += 1;
+                }
+
+                chai.assert.isTrue(pass);
+            });
+
+            // Test for MedImpact result
+            it ('Test: MedImpact price exists', function() {
+                tests += 1;
+                let pass = data.programs[3].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[3] += 1;
+                }
+
+                chai.assert.isTrue(pass);
+            });
+
+            // Test for SingleCare result
+            it ('Test: SingleCare price exists', function() {
+                tests += 1;
+                let pass = data.programs[4].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[4] += 1;
+                }
+
+                chai.assert.isTrue(pass);
+            });
     
+            // Test for Blink result
+            it ('Test: Blink price exists', function() {
+                tests += 1;
+                let pass = data.programs[5].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[5] += 1;
+                }
+
+                chai.assert.isTrue(pass);
+            });
+
             // Test for GoodRx result
             it ('Test: GoodRx price exists', function() {
-                chai.assert.isTrue(data.programs[6].price !== 'N/A');
+                tests += 1;
+                let pass = data.programs[6].price !== 'N/A';
+
+                if (pass) {
+                    passed += 1;
+                } else {
+                    program_stats[6] += 1;
+                }
+
+                chai.assert.isTrue(pass);
             });
         });
     });     // End {drugs} forEach
 
     after(() => {
-        genReport_JSON(report);
+        genReport_JSON(report, tests, passed, program_stats);
         genReport(report);
     })
 });     // End Drug Search test suite
