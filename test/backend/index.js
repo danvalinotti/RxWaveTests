@@ -178,7 +178,7 @@ describe ('Drug Search tests', async function() {
             // Test for InsideRx result
             it ('Test: InsideRx price exists', function() {
                 tests += 1;
-                let pass = data.programs[0].price !== 'N/A';
+                let pass = data.programs[0].prices.length > 0;
 
                 if (pass) {
                     passed += 1;
@@ -192,7 +192,7 @@ describe ('Drug Search tests', async function() {
             // Test for UsPharm result
             it ('Test: UsPharmCard price exists', function() {
                 tests += 1;
-                let pass = data.programs[1].price !== 'N/A';
+                let pass = data.programs[1].prices.length > 0;
 
                 if (pass) {
                     passed += 1;
@@ -206,7 +206,7 @@ describe ('Drug Search tests', async function() {
             // Test for WellRX result
             it ('Test: WellRX price exists', function() {
                 tests += 1;
-                let pass = data.programs[2].price !== 'N/A';
+                let pass = data.programs[2].prices.length > 0;
 
                 if (pass) {
                     passed += 1;
@@ -218,23 +218,23 @@ describe ('Drug Search tests', async function() {
             });
 
             // Test for MedImpact result
-            it ('Test: MedImpact price exists', function() {
-                tests += 1;
-                let pass = data.programs[3].price !== 'N/A';
+            // it ('Test: MedImpact price exists', function() {
+            //     tests += 1;
+            //     let pass = data.programs[3].prices.length > 0;
 
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[3] += 1;
-                }
+            //     if (pass) {
+            //         passed += 1;
+            //     } else {
+            //         program_stats[3] += 1;
+            //     }
 
-                chai.assert.isTrue(pass);
-            });
+            //     chai.assert.isTrue(pass);
+            // });
 
             // Test for SingleCare result
             it ('Test: SingleCare price exists', function() {
                 tests += 1;
-                let pass = data.programs[4].price !== 'N/A';
+                let pass = data.programs[4].prices.length > 0;
 
                 if (pass) {
                     passed += 1;
@@ -248,7 +248,7 @@ describe ('Drug Search tests', async function() {
             // Test for Blink result
             it ('Test: Blink price exists', function() {
                 tests += 1;
-                let pass = data.programs[5].price !== 'N/A';
+                let pass = data.programs[5].prices.length > 0;
 
                 if (pass) {
                     passed += 1;
@@ -262,7 +262,7 @@ describe ('Drug Search tests', async function() {
             // Test for GoodRx result
             it ('Test: GoodRx price exists', function() {
                 tests += 1;
-                let pass = data.programs[6].price !== 'N/A';
+                let pass = data.programs[6].prices.length > 0;
 
                 if (pass) {
                     passed += 1;
@@ -277,6 +277,6 @@ describe ('Drug Search tests', async function() {
 
     after(() => {
         genReport_JSON(report, tests, passed, program_stats);
-        genReport(report);
+        // genReport(report);
     })
 });     // End Drug Search test suite
