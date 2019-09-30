@@ -31,7 +31,11 @@ Mocha Test Suites for QA testing RxWave
         ✖️ Manage Alerts -> add new alert
         ✖️ Requests -> add new drug request
     ✅ Logout
+    
   2. Backend tests
+  
     ✅ getPharmacyPrice endpoints
+  
   3. Accuracy Tests
+  
     ✅ Start
