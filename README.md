@@ -18,19 +18,20 @@ Mocha Test Suites for QA testing RxWave
     ✅ Drug search
         ✅ Success
         ✅ Check if prices exist (Blink/GoodRx)
-    ✖️ Dashboard
+    ✅ Dashboard (load page)
         ✖️ Add drug to dashboard
         ✖️ Remove drug from dashboard
         ✖️ Export dashboard
-    ✖️ Reports
-        ✖️ Download latest report
+    ✅ Reports (load page)
+        ✅ Download latest report
         ✖️ Create manual report
-    ✖️ Admin View
+    ✅ Admin View (load page)
         ✖️ Create User
         ✖️ Manage Drugs -> add drug
         ✖️ Manage Alerts -> add new alert
         ✖️ Requests -> add new drug request
-    ✖️ Logout
+    ✅ Logout
   2. Backend tests
-  
-    ✖️ TBS
+    ✅ getPharmacyPrice endpoints
+  3. Accuracy Tests
+    ✅ Start
