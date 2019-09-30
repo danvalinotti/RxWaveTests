@@ -169,7 +169,7 @@ describe ('Frontend Tests', async function() {
                         let tabs = await driver.findElements(By.css('button[role="tab"]'));
                         await tabs[0].click();
                         await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);
-                        await sleep(1250);    // Wait for search suggestions to populate
+                        await sleep(500);    // Wait for search suggestions to populate
                         await driver.findElement(By.id('downshift-simple-item-0')).click();
                         await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);
 
@@ -213,18 +213,35 @@ describe ('Frontend Tests', async function() {
                             currentPrice = await overallPrices[1].getText();
                             lmPrice = await overallPrices[2].getText();
 
-                            // Save each program's price in prices array
-                            let priceElements = await driver.findElements(By.className('compPrice'));
-                            for (let i = 0; i < priceElements.length; i++) {            
-                                let text = await priceElements[i].getText();
-                                prices.push(text);
+                            let postRows = [];
+                            for (let j = 0; j < 7; j++) {
+                                const selector = `div#\\3${j} > div > p`;
+                                let exp = await driver.findElement(By.id(`${j}`));
+                                await exp.click();
+                                let mainPrice = await driver.findElement(By.css(selector));
+                                let subPrices = await driver.findElements(By.css(`div.top4-${j}>div[class^=\"makeStyles-topFourRow-\"] > div[class^=\"makeStyles-topFourPrices-\"]`));
+                                let mainText = await mainPrice.getText();
+                                let obj = [mainText];   
+                                for (const sub of subPrices) {
+                                    let subText = await sub.getText();
+                                    obj.push(subText);
+                                }
+
+                                if (mainText !== 'N/A') {
+                                    postRows.push(obj); 
+                                } else {
+                                    postRows.push(['N/A']);
+                                }
                             }
+                            
+                            prices = postRows;
                             await driver.findElement(By.css('.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected')).click();
 
                             // Clear text fields in the case of a failed search
                             await driver.findElement(By.id('downshift-simple-input')).clear();
                             await driver.findElement(By.id('myZipCode')).clear();
                         } catch (e) {
+                            console.log(e);
                             // Refresh if error occurs
                             await driver.navigate().refresh();
                         }
@@ -240,19 +257,33 @@ describe ('Frontend Tests', async function() {
                     }
                 });
 
+                // Test InsideRx price exists
+                it ('Check if price exists for InsideRx', function() {
+                    chai.assert.isTrue(prices[0][0] !== 'N/A' && prices[0].length > 1);
+                });
+                // Test USP price exists
+                it ('Check if price exists for USP', function() {
+                    chai.assert.isTrue(prices[1][0] !== 'N/A' && prices[1].length > 1);
+                });
                 // Test WellRx price exists
                 it ('Check if price exists for WellRx', function() {
-                    chai.assert.isTrue(prices[3] !== "N/A");
+                    chai.assert.isTrue(prices[2][0] !== 'N/A' && prices[2].length > 1);
                 });
-                
+                // Test MedImpact price exists
+                it ('Check if price exists for MedImpact', function() {
+                    chai.assert.isTrue(prices[3][0] !== 'N/A' && prices[3].length > 1);
+                });
+                // Test SingleCare price exists
+                it ('Check if price exists for SingleCare', function() {
+                    chai.assert.isTrue(prices[4][0] !== 'N/A' && prices[4].length > 1);
+                });
                 // Test Blink Health price exists
                 it ('Check if price exists for Blink Health', function() {
-                    chai.assert.isTrue(prices[4] !== "N/A");
+                    chai.assert.isTrue(prices[5][0] !== 'N/A' && prices[5].length > 1);
                 });
-                
                 // Test GoodRx price exists
                 it ('Check if price exists for GoodRx', function() {
-                    chai.assert.isTrue(prices[5] !== "N/A");
+                    chai.assert.isTrue(prices[6][0] !== 'N/A' && prices[5].length > 1);
                 });
 
             });     // End specific drug tests
