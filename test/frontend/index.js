@@ -3,7 +3,7 @@ const { describe, it, after, before } = require('mocha');
 const chai = require('chai');
 const chaiAsPromised = require('chai-as-promised');
 const webdriver = require('selenium-webdriver');
-const chrome = require('selenium-webdriver/chrome');
+const firefox = require('selenium-webdriver/firefox');
 const globals = require('../../globals.js');
 const drugs = require('../../lib/drugs');
 const {By} = webdriver;
@@ -22,24 +22,21 @@ describe ('Frontend Tests', async function() {
     
     // Build Chrome WebDriver
     before(() => {
-        dl_dir = __dirname + "\\downloads";
+        dl_dir = __dirname + "/downloads";
 
-        // Set chrome options
-        let options = new chrome.Options();
-        options.setUserPreferences({
-            "plugins.plugins_list": [{"enabled":false,"name":"Chrome PDF Viewer"}],
-            "download": {
-                "prompt_for_download": false,
-                "default_directory"  : dl_dir
-            }
-        });
-        options.addArguments('--disable-application-cache', '--incognito');
-    
+	    try {
+let options = new firefox.Options();
+        options.addArguments('--headless', '--no-sandbox', '--screen-size=1024,768', '--disable-gpu');
+
         // Build chromedriver instance
         driver = new webdriver.Builder()
-            .forBrowser('chrome')
-            .setChromeOptions(options)
+            .forBrowser('firefox')
+            .setFirefoxOptions(options)
             .build();
+
+	    } catch (error) {
+		    console.log(error);
+	    }
     });
 
     // Login Tests suite
@@ -134,9 +131,9 @@ describe ('Frontend Tests', async function() {
             // Finds downloaded file - if found, deletes
             let found = false;
             try {
-                await fs.promises.access(dl_dir + "\\poi-generated-file.xlsx");
+                await fs.promises.access(dl_dir + "/poi-generated-file.xlsx");
                 found = true;
-                await fs.promises.unlink(dl_dir + "\\poi-generated-file.xlsx")
+                await fs.promises.unlink(dl_dir + "/poi-generated-file.xlsx")
             } catch (error) {
                 console.log("Downloaded report not found: ", error);
             }
@@ -257,31 +254,31 @@ describe ('Frontend Tests', async function() {
                     }
                 });
 
-                // Test InsideRx price exists
+                 Test InsideRx price exists
                 it ('Check if price exists for InsideRx', function() {
-                    chai.assert.isTrue(prices[0][0] !== 'N/A' && prices[0].length > 1);
+                  chai.assert.isTrue(prices[0][0] !== 'N/A' && prices[0].length > 1);
                 });
-                // Test USP price exists
+                 Test USP price exists
                 it ('Check if price exists for USP', function() {
-                    chai.assert.isTrue(prices[1][0] !== 'N/A' && prices[1].length > 1);
+                   chai.assert.isTrue(prices[1][0] !== 'N/A' && prices[1].length > 1);
                 });
-                // Test WellRx price exists
+                 Test WellRx price exists
                 it ('Check if price exists for WellRx', function() {
-                    chai.assert.isTrue(prices[2][0] !== 'N/A' && prices[2].length > 1);
+                  chai.assert.isTrue(prices[2][0] !== 'N/A' && prices[2].length > 1);
                 });
-                // Test MedImpact price exists
+                 Test MedImpact price exists
                 it ('Check if price exists for MedImpact', function() {
-                    chai.assert.isTrue(prices[3][0] !== 'N/A' && prices[3].length > 1);
+                  chai.assert.isTrue(prices[3][0] !== 'N/A' && prices[3].length > 1);
                 });
-                // Test SingleCare price exists
+                 Test SingleCare price exists
                 it ('Check if price exists for SingleCare', function() {
-                    chai.assert.isTrue(prices[4][0] !== 'N/A' && prices[4].length > 1);
+                  chai.assert.isTrue(prices[4][0] !== 'N/A' && prices[4].length > 1);
                 });
-                // Test Blink Health price exists
+                 Test Blink Health price exists
                 it ('Check if price exists for Blink Health', function() {
                     chai.assert.isTrue(prices[5][0] !== 'N/A' && prices[5].length > 1);
                 });
-                // Test GoodRx price exists
+                 Test GoodRx price exists
                 it ('Check if price exists for GoodRx', function() {
                     chai.assert.isTrue(prices[6][0] !== 'N/A' && prices[5].length > 1);
                 });

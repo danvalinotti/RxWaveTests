@@ -7,7 +7,7 @@
     "dev": "npm run test dev",
     "qa": "npm run test qa",
     "prod": "npm run test prod",
-    "test": "mocha test --reporter mochawesome --reportDir C:\\Users\\dvalinotti\\Desktop\\GalaxE_Workspace\\RxWavetests\\mochawesome-report\\ --reportFileName mochawesome.html",
+    "test": "mocha test --reporter mochawesome --reportDir /home/dvalinotti/RxWaveTests/mochawesome-report --reportFileName mochawesome.html",
     "xl": "node genXl.js"
   },
   "repository": {
@@ -23,7 +23,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
-    "chromedriver": "76.0.1",
+    "chromedriver": "^77.0.0",
     "dotenv": "^8.1.0",
     "faker": "^4.1.0",
     "mocha": "^5.2.0",
