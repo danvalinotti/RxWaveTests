@@ -169,7 +169,7 @@ describe ('Frontend Tests', async function() {
                         let tabs = await driver.findElements(By.css('button[role="tab"]'));
                         await tabs[0].click();
                         await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);
-                        await sleep(500);    // Wait for search suggestions to populate
+                        await sleep(1250);    // Wait for search suggestions to populate
                         await driver.findElement(By.id('downshift-simple-item-0')).click();
                         await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);
 
@@ -243,7 +243,7 @@ describe ('Frontend Tests', async function() {
                         } catch (e) {
                             console.log(e);
                             // Refresh if error occurs
-                            await driver.navigate().refresh();
+                            // await driver.navigate().refresh();
                         }
                     } catch (e) {
                         console.log(e);
