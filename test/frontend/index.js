@@ -254,31 +254,31 @@ let options = new firefox.Options();
                     }
                 });
 
-                 Test InsideRx price exists
+                // Test InsideRx price exists
                 it ('Check if price exists for InsideRx', function() {
                   chai.assert.isTrue(prices[0][0] !== 'N/A' && prices[0].length > 1);
                 });
-                 Test USP price exists
+                // Test USP price exists
                 it ('Check if price exists for USP', function() {
                    chai.assert.isTrue(prices[1][0] !== 'N/A' && prices[1].length > 1);
                 });
-                 Test WellRx price exists
+                // Test WellRx price exists
                 it ('Check if price exists for WellRx', function() {
                   chai.assert.isTrue(prices[2][0] !== 'N/A' && prices[2].length > 1);
                 });
-                 Test MedImpact price exists
+                // Test MedImpact price exists
                 it ('Check if price exists for MedImpact', function() {
                   chai.assert.isTrue(prices[3][0] !== 'N/A' && prices[3].length > 1);
                 });
-                 Test SingleCare price exists
+                // Test SingleCare price exists
                 it ('Check if price exists for SingleCare', function() {
                   chai.assert.isTrue(prices[4][0] !== 'N/A' && prices[4].length > 1);
                 });
-                 Test Blink Health price exists
+                //  Test Blink Health price exists
                 it ('Check if price exists for Blink Health', function() {
                     chai.assert.isTrue(prices[5][0] !== 'N/A' && prices[5].length > 1);
                 });
-                 Test GoodRx price exists
+                //  Test GoodRx price exists
                 it ('Check if price exists for GoodRx', function() {
                     chai.assert.isTrue(prices[6][0] !== 'N/A' && prices[5].length > 1);
                 });
