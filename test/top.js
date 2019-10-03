@@ -7,8 +7,8 @@ function importTest(name, path) {
 let common = require('./common');
 
 describe("Top-Level", function() {
-    importTest('Frontend', './frontend');
-    // importTest('Backend', './backend');
+    // importTest('Frontend', './frontend');
+    importTest('Backend', './backend');
     // importTest('Accuracy', './accuracy');
 
     this.afterAll(function() {
