@@ -85,7 +85,7 @@ describe ('Drug Search tests', async function() {
         });
     });
 
-    drug_requests.forEach((drug) => {
+    drug_requests.slice(0,5).forEach((drug) => {
         describe (`Drug search test for ${drug.name}`, function() {
             let data;
             let reportData = {};

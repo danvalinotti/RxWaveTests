@@ -16,7 +16,7 @@ var options = {
   useUnifiedTopology: true
 }
 
-mongoose.connect('mongodb://localhost:27017/rxwave_testing', options)
+mongoose.connect('mongodb://ec2-54-81-21-172.compute-1.amazonaws.com:27017/rxwave_testing', options)
 
 global.db = (global.db ? global.db: mongoose.connection);
 global.db.on('error', console.error.bind(console, 'Error connecting with MongoDB: '))

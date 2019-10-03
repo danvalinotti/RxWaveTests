@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://localhost:27017/rxwave_testing';
+const url = 'mongodb://ec2-54-81-21-172.compute-1.amazonaws.com:27017/rxwave_testing';
 let _db;
 let options = {
     bufferMaxEntries: 0,
