@@ -18,7 +18,10 @@ describe("Top-Level", function() {
         let promise = mongoose.disconnect()
         promise.then((err) => {
             if (err) throw err;
-            else console.log("Disconnected from MongoDB.")
+            else {
+                console.log("Disconnected from MongoDB.");
+                process.exit();
+            }
         })
     });
 });
