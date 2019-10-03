@@ -104,47 +104,6 @@ describe ('Frontend Tests', async function() {
         // });     // End price display test
     });     // End Dashboard test suite
 
-    // Reports page Test Suite
-    describe('Reports Page Tests', async function() {
-
-        // Test if page loads
-        it ('Test if Reports page loads', async function() {
-            let tabs = await driver.findElements(By.css('button[role="tab"]'));
-            await tabs[2].click();
-            
-            await driver.wait(async function() {
-                try {
-                    await driver.findElement(By.css('svg.pointer')).isDisplayed();
-                    return true;
-                } catch (e) {
-                    return false;
-                }
-            });
-
-            let currentUrl = await driver.getCurrentUrl();
-            chai.assert.isTrue(currentUrl === globals.SITE + "/#/reports");
-        });     // End page load test
-
-        // Downloads latest report and tests if file exists
-        it ('Test if latest report successfully downloads', async function() {
-            await driver.findElement(By.css('svg.pointer')).click();
-            // Wait for file to download
-            await sleep(3000);
-
-            // Finds downloaded file - if found, deletes
-            let found = false;
-            try {
-                await fs.promises.access(dl_dir + "\\poi-generated-file.xlsx");
-                found = true;
-                await fs.promises.unlink(dl_dir + "\\poi-generated-file.xlsx")
-            } catch (error) {
-                console.log("Downloaded report not found: ", error);
-            }
-
-            chai.assert.isTrue(found);
-        });     // End download test
-    });     // End Dashboard test suite
-
     // Drug Search test suite
     describe ('Drug Search Tests', async function() {
         
@@ -169,7 +128,7 @@ describe ('Frontend Tests', async function() {
                         let tabs = await driver.findElements(By.css('button[role="tab"]'));
                         await tabs[0].click();
                         await driver.findElement(By.id('downshift-simple-input')).sendKeys(drug.Name);
-                        await sleep(500);    // Wait for search suggestions to populate
+                        await sleep(1250);    // Wait for search suggestions to populate
                         await driver.findElement(By.id('downshift-simple-item-0')).click();
                         await driver.findElement(By.id('myZipCode')).sendKeys(drug.ZipCode);
 
@@ -200,6 +159,7 @@ describe ('Frontend Tests', async function() {
                         await driver.wait(async function() {                       
                             try {
                                 await driver.findElement(By.className('MuiDialog-root')).isDisplayed();
+                                await sleep(250);
                                 return false;
                             } catch (e) {
                                 return true;
@@ -243,7 +203,7 @@ describe ('Frontend Tests', async function() {
                         } catch (e) {
                             console.log(e);
                             // Refresh if error occurs
-                            await driver.navigate().refresh();
+                            // await driver.navigate().refresh();
                         }
                     } catch (e) {
                         console.log(e);
@@ -289,6 +249,47 @@ describe ('Frontend Tests', async function() {
             });     // End specific drug tests
         });     // End drugs loop
     });     // End Drug Search test suite
+
+    // Reports page Test Suite
+    describe('Reports Page Tests', async function() {
+
+        // Test if page loads
+        it ('Test if Reports page loads', async function() {
+            let tabs = await driver.findElements(By.css('button[role="tab"]'));
+            await tabs[2].click();
+            
+            await driver.wait(async function() {
+                try {
+                    await driver.findElement(By.css('svg.pointer')).isDisplayed();
+                    return true;
+                } catch (e) {
+                    return false;
+                }
+            });
+
+            let currentUrl = await driver.getCurrentUrl();
+            chai.assert.isTrue(currentUrl === globals.SITE + "/#/reports");
+        });     // End page load test
+
+        // Downloads latest report and tests if file exists
+        it ('Test if latest report successfully downloads', async function() {
+            await driver.findElement(By.css('svg.pointer')).click();
+            // Wait for file to download
+            await sleep(3000);
+
+            // Finds downloaded file - if found, deletes
+            let found = false;
+            try {
+                await fs.promises.access(dl_dir + "\\poi-generated-file.xlsx");
+                found = true;
+                await fs.promises.unlink(dl_dir + "\\poi-generated-file.xlsx")
+            } catch (error) {
+                console.log("Downloaded report not found: ", error);
+            }
+
+            chai.assert.isTrue(found);
+        });     // End download test
+    });     // End Dashboard test suite
 
     // Admin View test suite
     describe('Admin View tests', async function() {
