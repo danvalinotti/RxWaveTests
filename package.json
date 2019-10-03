@@ -7,7 +7,7 @@
     "dev": "npm run test dev",
     "qa": "npm run test qa",
     "prod": "npm run test prod",
-    "test": "mocha test --reporter mochawesome --reportDir C:\\Users\\dvalinotti\\Desktop\\GalaxE_Workspace\\RxWavetests\\mochawesome-report\\ --reportFileName mochawesome.html prod",
+    "test": "mocha test --reporter mochawesome --reportDir C:\\Users\\dvalinotti\\Desktop\\GalaxE_Workspace\\RxWavetests\\mochawesome-report\\ --reportFileName mochawesome.html",
     "xl": "node genXl.js"
   },
   "repository": {

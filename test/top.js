@@ -1,3 +1,5 @@
+let mongoose = require('mongoose');
+
 function importTest(name, path) {
     describe(name, function() {
         require(path);
@@ -13,6 +15,11 @@ describe("Top-Level", function() {
 
     this.afterAll(function() {
         console.log("Done!");
+        let promise = mongoose.disconnect()
+        promise.then((err) => {
+            if (err) throw err;
+            else console.log("Disconnected from MongoDB.")
+        })
     });
 });
 

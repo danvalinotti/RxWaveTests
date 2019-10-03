@@ -98,8 +98,8 @@ describe ('Drug Search tests', async function() {
                 try {
                     const response = await instance.get(`${globals.API}/getDrugInfo/${drug.name}`);
                     if (serializeDrugName(response.data[0].name).includes(serializeDrugName(drug.name))) {
-                        console.log(response.data[0].name);
-                        console.log(drug.name);
+                        // console.log(response.data[0].name);
+                        // console.log(drug.name);
                         pass = true;
                     }
                 } catch (error) {
@@ -152,6 +152,15 @@ describe ('Drug Search tests', async function() {
                     };
 
                     pass = true;
+
+                    for (let i = 0; i < data.programs.length; i++) {
+                        tests += 1;
+                        if (data.programs[i].prices.length > 0 && data.programs[i].prices[0].price !== "N/A") {
+                            passed += 1;
+                        } else {
+                            program_stats[i] += 1;
+                        }
+                    }
                 } catch (error) {
                     console.log(error);
                 }
@@ -164,109 +173,11 @@ describe ('Drug Search tests', async function() {
     
                 chai.assert.isTrue(pass);
             });
-
-            // Test for InsideRx result
-            it ('Test: InsideRx price exists', function() {
-                tests += 1;
-                let pass = data.programs[0].prices.length > 0 && data.programs[0].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[0] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
-
-            // Test for UsPharm result
-            it ('Test: UsPharmCard price exists', function() {
-                tests += 1;
-                let pass = data.programs[1].prices.length > 0 && data.programs[1].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[1] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
-
-            // Test for WellRX result
-            it ('Test: WellRX price exists', function() {
-                tests += 1;
-                let pass = data.programs[2].prices.length > 0  && data.programs[2].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[2] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
-
-            // Test for MedImpact result
-            it ('Test: MedImpact price exists', function() {
-                tests += 1;
-                let pass = data.programs[3].prices.length > 0 && data.programs[3].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[3] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
-
-            // Test for SingleCare result
-            it ('Test: SingleCare price exists', function() {
-                tests += 1;
-                let pass = data.programs[4].prices.length > 0  && data.programs[4].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[4] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
-    
-            // Test for Blink result
-            it ('Test: Blink price exists', function() {
-                tests += 1;
-                let pass = data.programs[5].prices.length > 0  && data.programs[5].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[5] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
-
-            // Test for GoodRx result
-            it ('Test: GoodRx price exists', function() {
-                tests += 1;
-                let pass = data.programs[6].prices.length > 0 && data.programs[6].prices[0].price !== "N/A";
-
-                if (pass) {
-                    passed += 1;
-                } else {
-                    program_stats[6] += 1;
-                }
-
-                chai.assert.isTrue(pass);
-            });
         });
     });     // End {drugs} forEach
 
-    after(() => {
-        genReport_JSON(report, tests, passed, program_stats);
+    after(async () => {
+        await genReport_JSON(report, tests, passed, program_stats);
         // genReport(report);
     })
 });     // End Drug Search test suite
