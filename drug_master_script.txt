@@ -1,0 +1,1500 @@
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277142, '150 mg', null, 'TABLET', '011673', 'RANITIDINE HYDROCHLORIDE',
+                            '68462024805', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277143, '150 mg', null, 'TABLET', '011673', 'RANITIDINE HYDROCHLORIDE',
+                            '68462024805', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277144, '150 mg', null, 'TABLET', '011673', 'RANITIDINE HYDROCHLORIDE',
+                            '68462024805', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277145, '150 mg', null, 'TABLET', '011673', 'RANITIDINE HYDROCHLORIDE',
+                            '68462024805', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277146, '150 mg', null, 'TABLET', '011673', 'RANITIDINE HYDROCHLORIDE',
+                            '68462024805', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277147, '500 mg', null, 'TABLET', '008362', 'NAPROXEN',
+                            '49483061801', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277148, '500 mg', null, 'TABLET', '008362', 'NAPROXEN',
+                            '49483061801', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277149, '500 mg', null, 'TABLET', '008362', 'NAPROXEN',
+                            '49483061801', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277150, '500 mg', null, 'TABLET', '008362', 'NAPROXEN',
+                            '49483061801', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277151, '500 mg', null, 'TABLET', '008362', 'NAPROXEN',
+                            '49483061801', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277152, '500 mg', null, 'TABLET', '046754', 'METFORMIN HYDROCHLORIDE',
+                            '00093104810', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277153, '500 mg', null, 'TABLET', '046754', 'METFORMIN HYDROCHLORIDE',
+                            '00093104810', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277154, '500 mg', null, 'TABLET', '046754', 'METFORMIN HYDROCHLORIDE',
+                            '00093104810', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277155, '500 mg', null, 'TABLET', '046754', 'METFORMIN HYDROCHLORIDE',
+                            '00093104810', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277156, '500 mg', null, 'TABLET', '046754', 'METFORMIN HYDROCHLORIDE',
+                            '00093104810', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277158, '20 mg', null, 'TABLET', '050760', 'ESCITALOPRAM OXALATE',
+                            '00093585201', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277157, '20 mg', null, 'TABLET', '050760', 'ESCITALOPRAM OXALATE',
+                            '00093585201', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277161, '20 mg', null, 'TABLET', '050760', 'ESCITALOPRAM OXALATE',
+                            '00093585201', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277163, '100 mg', null, 'CAPSULE', '021413', 'GABAPENTIN',
+                            '69097081312', 90.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277164, '100 mg', null, 'CAPSULE', '021413', 'GABAPENTIN',
+                            '69097081312', 90.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277165, '100 mg', null, 'CAPSULE', '021413', 'GABAPENTIN',
+                            '69097081312', 90.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277166, '100 mg', null, 'CAPSULE', '021413', 'GABAPENTIN',
+                            '69097081312', 90.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277168, '25 mg-20 mg', null, 'TABLET', '000389', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126401', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277167, '25 mg-20 mg', null, 'TABLET', '000389', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126401', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277169, '25 mg-20 mg', null, 'TABLET', '000389', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126401', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277159, '20 mg', null, 'TABLET', '050760', 'ESCITALOPRAM OXALATE',
+                            '00093585201', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277170, '25 mg-20 mg', null, 'TABLET', '000389', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126401', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277172, '50 mg', null, 'TABLET', '016599', 'METOPROLOL SUCCINATE ER',
+                            '00904632361', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277171, '25 mg-20 mg', null, 'TABLET', '000389', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126401', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277174, '50 mg', null, 'TABLET', '016599', 'METOPROLOL SUCCINATE ER',
+                            '00904632361', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277176, '50 mg', null, 'TABLET', '016599', 'METOPROLOL SUCCINATE ER',
+                            '00904632361', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277175, '50 mg', null, 'TABLET', '016599', 'METOPROLOL SUCCINATE ER',
+                            '00904632361', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277177, '100 mg', null, 'CAPSULE', '004641', 'BENZONATATE',
+                            '00904656460', 90.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277178, '100 mg', null, 'CAPSULE', '004641', 'BENZONATATE',
+                            '00904656460', 90.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277173, '50 mg', null, 'TABLET', '016599', 'METOPROLOL SUCCINATE ER',
+                            '00904632361', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277179, '100 mg', null, 'CAPSULE', '004641', 'BENZONATATE',
+                            '00904656460', 90.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277160, '20 mg', null, 'TABLET', '050760', 'ESCITALOPRAM OXALATE',
+                            '00093585201', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277180, '100 mg', null, 'CAPSULE', '004641', 'BENZONATATE',
+                            '00904656460', 90.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277181, '100 mg', null, 'CAPSULE', '004641', 'BENZONATATE',
+                            '00904656460', 90.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277182, '500 mg', null, 'TABLET', '023989', 'VALACYCLOVIR',
+                            '00093725856', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277184, '500 mg', null, 'TABLET', '023989', 'VALACYCLOVIR',
+                            '00093725856', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277183, '500 mg', null, 'TABLET', '023989', 'VALACYCLOVIR',
+                            '00093725856', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277185, '500 mg', null, 'TABLET', '023989', 'VALACYCLOVIR',
+                            '00093725856', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277186, '500 mg', null, 'TABLET', '023989', 'VALACYCLOVIR',
+                            '00093725856', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277187, '60 mg', null, 'CAPSULE', '057893', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754456', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277189, '60 mg', null, 'CAPSULE', '057893', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754456', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277188, '60 mg', null, 'CAPSULE', '057893', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754456', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277191, '60 mg', null, 'CAPSULE', '057893', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754456', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277190, '60 mg', null, 'CAPSULE', '057893', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754456', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277194, '300 mg', null, 'CAPSULE', '040257', 'CEFDINIR',
+                            '00093316006', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277192, '300 mg', null, 'CAPSULE', '040257', 'CEFDINIR',
+                            '00093316006', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277193, '300 mg', null, 'CAPSULE', '040257', 'CEFDINIR',
+                            '00093316006', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277195, '300 mg', null, 'CAPSULE', '040257', 'CEFDINIR',
+                            '00093316006', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277196, '300 mg', null, 'CAPSULE', '040257', 'CEFDINIR',
+                            '00093316006', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277198, '500 mg', null, 'TABLET', '022624', 'AZITHROMYCIN',
+                            '00093716956', 3.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277200, '500 mg', null, 'TABLET', '022624', 'AZITHROMYCIN',
+                            '00093716956', 3.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277201, '500 mg', null, 'TABLET', '022624', 'AZITHROMYCIN',
+                            '00093716956', 3.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277197, '500 mg', null, 'TABLET', '022624', 'AZITHROMYCIN',
+                            '00093716956', 3.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277199, '500 mg', null, 'TABLET', '022624', 'AZITHROMYCIN',
+                            '00093716956', 3.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277162, '100 mg', null, 'CAPSULE', '021413', 'GABAPENTIN',
+                            '69097081312', 90.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277202, '25 mcg', null, 'TABLET', '006648', 'LEVOTHYROXINE',
+                            '00378180010', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277203, '25 mcg', null, 'TABLET', '006648', 'LEVOTHYROXINE',
+                            '00378180010', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277204, '25 mcg', null, 'TABLET', '006648', 'LEVOTHYROXINE',
+                            '00378180010', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277205, '25 mcg', null, 'TABLET', '006648', 'LEVOTHYROXINE',
+                            '00378180010', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277206, '25 mcg', null, 'TABLET', '006648', 'LEVOTHYROXINE',
+                            '00378180010', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277209, '20 mg', null, 'TABLET', '008208', 'FUROSEMIDE',
+                            '69315011610', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277207, '20 mg', null, 'TABLET', '008208', 'FUROSEMIDE',
+                            '69315011610', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277210, '20 mg', null, 'TABLET', '008208', 'FUROSEMIDE',
+                            '69315011610', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277208, '20 mg', null, 'TABLET', '008208', 'FUROSEMIDE',
+                            '69315011610', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277214, '300 mg', null, 'TABLET', '002536', 'ALLOPURINOL',
+                            '00378018101', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277212, '300 mg', null, 'TABLET', '002536', 'ALLOPURINOL',
+                            '00378018101', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277211, '20 mg', null, 'TABLET', '008208', 'FUROSEMIDE',
+                            '69315011610', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277213, '300 mg', null, 'TABLET', '002536', 'ALLOPURINOL',
+                            '00378018101', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277215, '300 mg', null, 'TABLET', '002536', 'ALLOPURINOL',
+                            '00378018101', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277217, '600 mg', null, 'TABLET', '008349', 'IBUPROFEN',
+                            '00904585440', 90.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277216, '300 mg', null, 'TABLET', '002536', 'ALLOPURINOL',
+                            '00378018101', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277218, '600 mg', null, 'TABLET', '008349', 'IBUPROFEN',
+                            '00904585440', 90.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277220, '600 mg', null, 'TABLET', '008349', 'IBUPROFEN',
+                            '00904585440', 90.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277221, '600 mg', null, 'TABLET', '008349', 'IBUPROFEN',
+                            '00904585440', 90.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277222, '12.5 mg-20 mg', null, 'TABLET', '000388', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126301', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277224, '12.5 mg-20 mg', null, 'TABLET', '000388', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126301', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277219, '600 mg', null, 'TABLET', '008349', 'IBUPROFEN',
+                            '00904585440', 90.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277225, '12.5 mg-20 mg', null, 'TABLET', '000388', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126301', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277223, '12.5 mg-20 mg', null, 'TABLET', '000388', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126301', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277226, '12.5 mg-20 mg', null, 'TABLET', '000388', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126301', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277229, '40 mg', null, 'TABLET', '008209', 'FUROSEMIDE',
+                            '00054429925', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277230, '40 mg', null, 'TABLET', '008209', 'FUROSEMIDE',
+                            '00054429925', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277231, '40 mg', null, 'TABLET', '008209', 'FUROSEMIDE',
+                            '00054429925', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277232, '10 mg', null, 'TABLET', '017037', 'CETIRIZINE HYDROCHLORIDE',
+                            '00378363701', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277227, '40 mg', null, 'TABLET', '008209', 'FUROSEMIDE',
+                            '00054429925', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277234, '10 mg', null, 'TABLET', '017037', 'CETIRIZINE HYDROCHLORIDE',
+                            '00378363701', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277228, '40 mg', null, 'TABLET', '008209', 'FUROSEMIDE',
+                            '00054429925', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277235, '10 mg', null, 'TABLET', '017037', 'CETIRIZINE HYDROCHLORIDE',
+                            '00378363701', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277233, '10 mg', null, 'TABLET', '017037', 'CETIRIZINE HYDROCHLORIDE',
+                            '00378363701', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277237, '5 mg', null, 'TABLET', '000393', 'LISINOPRIL',
+                            '00143971501', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277236, '10 mg', null, 'TABLET', '017037', 'CETIRIZINE HYDROCHLORIDE',
+                            '00378363701', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277238, '5 mg', null, 'TABLET', '000393', 'LISINOPRIL',
+                            '00143971501', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277240, '5 mg', null, 'TABLET', '000393', 'LISINOPRIL',
+                            '00143971501', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277241, '5 mg', null, 'TABLET', '000393', 'LISINOPRIL',
+                            '00143971501', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277242, '0.63 mg/3 ml ', null, 'SOLUTION', '005039', 'ALBUTEROL SULFATE',
+                            '00378699152', 360.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277243, '0.63 mg/3 ml ', null, 'SOLUTION', '005039', 'ALBUTEROL SULFATE',
+                            '00378699152', 360.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277244, '0.63 mg/3 ml ', null, 'SOLUTION', '005039', 'ALBUTEROL SULFATE',
+                            '00378699152', 360.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277245, '0.63 mg/3 ml ', null, 'SOLUTION', '005039', 'ALBUTEROL SULFATE',
+                            '00378699152', 360.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277246, '0.63 mg/3 ml ', null, 'SOLUTION', '005039', 'ALBUTEROL SULFATE',
+                            '00378699152', 360.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277248, '0.12%', null, 'MOUTHWASH', '057959', 'CHLORHEXIDINE GLUCONATE',
+                            '00116200104', 473.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277249, '0.12%', null, 'MOUTHWASH', '057959', 'CHLORHEXIDINE GLUCONATE',
+                            '00116200104', 473.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277250, '0.12%', null, 'MOUTHWASH', '057959', 'CHLORHEXIDINE GLUCONATE',
+                            '00116200104', 473.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277251, '0.12%', null, 'MOUTHWASH', '057959', 'CHLORHEXIDINE GLUCONATE',
+                            '00116200104', 473.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277247, '0.12%', null, 'MOUTHWASH', '057959', 'CHLORHEXIDINE GLUCONATE',
+                            '00116200104', 473.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277239, '5 mg', null, 'TABLET', '000393', 'LISINOPRIL',
+                            '00143971501', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277252, '150 mcg', null, 'TABLET', '006654', 'LEVOTHYROXINE SODIUM',
+                            '00378181510', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277253, '150 mcg', null, 'TABLET', '006654', 'LEVOTHYROXINE SODIUM',
+                            '00378181510', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277255, '150 mcg', null, 'TABLET', '006654', 'LEVOTHYROXINE SODIUM',
+                            '00378181510', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277254, '150 mcg', null, 'TABLET', '006654', 'LEVOTHYROXINE SODIUM',
+                            '00378181510', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277256, '150 mcg', null, 'TABLET', '006654', 'LEVOTHYROXINE SODIUM',
+                            '00378181510', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277257, '500 mg', null, 'TABLET', '029928', 'LEVOFLOXACIN',
+                            '00781579101', 10.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277258, '500 mg', null, 'TABLET', '029928', 'LEVOFLOXACIN',
+                            '00781579101', 10.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277259, '500 mg', null, 'TABLET', '029928', 'LEVOFLOXACIN',
+                            '00781579101', 10.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277260, '500 mg', null, 'TABLET', '029928', 'LEVOFLOXACIN',
+                            '00781579101', 10.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277262, '1 mg', null, 'TABLET', '002366', 'FOLIC ACID',
+                            '00591521601', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277263, '1 mg', null, 'TABLET', '002366', 'FOLIC ACID',
+                            '00591521601', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277264, '1 mg', null, 'TABLET', '002366', 'FOLIC ACID',
+                            '00591521601', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277261, '500 mg', null, 'TABLET', '029928', 'LEVOFLOXACIN',
+                            '00781579101', 10.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277267, '40 mg', null, 'CAPSULE', '046215', 'FLUOXETINE HYDROCHLORIDE',
+                            '62332002431', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277265, '1 mg', null, 'TABLET', '002366', 'FOLIC ACID',
+                            '00591521601', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277268, '40 mg', null, 'CAPSULE', '046215', 'FLUOXETINE HYDROCHLORIDE',
+                            '62332002431', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277269, '40 mg', null, 'CAPSULE', '046215', 'FLUOXETINE HYDROCHLORIDE',
+                            '62332002431', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277266, '1 mg', null, 'TABLET', '002366', 'FOLIC ACID',
+                            '00591521601', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277270, '40 mg', null, 'CAPSULE', '046215', 'FLUOXETINE HYDROCHLORIDE',
+                            '62332002431', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277273, '325 mg', null, 'TABLET', '001645', 'FERROUS SULFATE',
+                            '00245010801', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277271, '40 mg', null, 'CAPSULE', '046215', 'FLUOXETINE HYDROCHLORIDE',
+                            '62332002431', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277272, '325 mg', null, 'TABLET', '001645', 'FERROUS SULFATE',
+                            '00245010801', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277274, '325 mg', null, 'TABLET', '001645', 'FERROUS SULFATE',
+                            '00245010801', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277275, '325 mg', null, 'TABLET', '001645', 'FERROUS SULFATE',
+                            '00245010801', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277276, '325 mg', null, 'TABLET', '001645', 'FERROUS SULFATE',
+                            '00245010801', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277278, '112 mcg', null, 'TABLET', '006652', 'LEVOTHYROXINE SODIUM',
+                            '00378181110', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277277, '112 mcg', null, 'TABLET', '006652', 'LEVOTHYROXINE SODIUM',
+                            '00378181110', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277280, '112 mcg', null, 'TABLET', '006652', 'LEVOTHYROXINE SODIUM',
+                            '00378181110', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277282, '400 mg/5 ml', null, 'SUSP RECON', '042683', 'AMOXICILLIN TRIHYDRATE',
+                            '00093416173', 100.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277283, '400 mg/5 ml', null, 'SUSP RECON', '042683', 'AMOXICILLIN TRIHYDRATE',
+                            '00093416173', 100.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277279, '112 mcg', null, 'TABLET', '006652', 'LEVOTHYROXINE SODIUM',
+                            '00378181110', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277281, '112 mcg', null, 'TABLET', '006652', 'LEVOTHYROXINE SODIUM',
+                            '00378181110', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277284, '400 mg/5 ml', null, 'SUSP RECON', '042683', 'AMOXICILLIN TRIHYDRATE',
+                            '00093416173', 100.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277288, '20 mg', null, 'TABLET', '016578', 'SIMVASTATIN',
+                            '00093715431', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277287, '20 mg', null, 'TABLET', '016578', 'SIMVASTATIN',
+                            '00093715431', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277285, '400 mg/5 ml', null, 'SUSP RECON', '042683', 'AMOXICILLIN TRIHYDRATE',
+                            '00093416173', 100.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277289, '20 mg', null, 'TABLET', '016578', 'SIMVASTATIN',
+                            '00093715431', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277286, '400 mg/5 ml', null, 'SUSP RECON', '042683', 'AMOXICILLIN TRIHYDRATE',
+                            '00093416173', 100.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277291, '20 mg', null, 'TABLET', '016578', 'SIMVASTATIN',
+                            '00093715431', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277292, '100 mg', null, 'TABLET', '002535', 'ALLOPURINOL',
+                            '00378013701', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277293, '100 mg', null, 'TABLET', '002535', 'ALLOPURINOL',
+                            '00378013701', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277294, '100 mg', null, 'TABLET', '002535', 'ALLOPURINOL',
+                            '00378013701', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277295, '100 mg', null, 'TABLET', '002535', 'ALLOPURINOL',
+                            '00378013701', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277296, '100 mg', null, 'TABLET', '002535', 'ALLOPURINOL',
+                            '00378013701', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277297, '20 mg', null, 'TABLET', '040941', 'RABEPRAZOLE SODIUM',
+                            '00093006456', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277298, '20 mg', null, 'TABLET', '040941', 'RABEPRAZOLE SODIUM',
+                            '00093006456', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277299, '20 mg', null, 'TABLET', '040941', 'RABEPRAZOLE SODIUM',
+                            '00093006456', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277290, '20 mg', null, 'TABLET', '016578', 'SIMVASTATIN',
+                            '00093715431', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277300, '20 mg', null, 'TABLET', '040941', 'RABEPRAZOLE SODIUM',
+                            '00093006456', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277302, '10 mg', null, 'TABLET', '018698', 'LORATADINE',
+                            '00067067430', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277304, '10 mg', null, 'TABLET', '018698', 'LORATADINE',
+                            '00067067430', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277305, '10 mg', null, 'TABLET', '018698', 'LORATADINE',
+                            '00067067430', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277306, '10 mg', null, 'TABLET', '018698', 'LORATADINE',
+                            '00067067430', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277307, '12.5 mg-10 mg', null, 'TABLET', '021277', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126201', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277308, '12.5 mg-10 mg', null, 'TABLET', '021277', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126201', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277309, '12.5 mg-10 mg', null, 'TABLET', '021277', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126201', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277310, '12.5 mg-10 mg', null, 'TABLET', '021277', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126201', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277301, '20 mg', null, 'TABLET', '040941', 'RABEPRAZOLE SODIUM',
+                            '00093006456', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277303, '10 mg', null, 'TABLET', '018698', 'LORATADINE',
+                            '00067067430', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277311, '12.5 mg-10 mg', null, 'TABLET', '021277', 'LISINOPRIL/HYDROCHLOROTHIAZIDE',
+                            '00143126201', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277312, '12.5 mg', null, 'TABLET', '028915', 'HYDROCHLOROTHIAZIDE',
+                            '16729018201', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277315, '12.5 mg', null, 'TABLET', '028915', 'HYDROCHLOROTHIAZIDE',
+                            '16729018201', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277316, '12.5 mg', null, 'TABLET', '028915', 'HYDROCHLOROTHIAZIDE',
+                            '16729018201', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277314, '12.5 mg', null, 'TABLET', '028915', 'HYDROCHLOROTHIAZIDE',
+                            '16729018201', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277313, '12.5 mg', null, 'TABLET', '028915', 'HYDROCHLOROTHIAZIDE',
+                            '16729018201', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277317, '12.5 mg-50 mg', null, 'TABLET', '023465', 'LOSARTAN/HCTZ',
+                            '00093736710', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277318, '12.5 mg-50 mg', null, 'TABLET', '023465', 'LOSARTAN/HCTZ',
+                            '00093736710', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277319, '12.5 mg-50 mg', null, 'TABLET', '023465', 'LOSARTAN/HCTZ',
+                            '00093736710', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277320, '12.5 mg-50 mg', null, 'TABLET', '023465', 'LOSARTAN/HCTZ',
+                            '00093736710', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277321, '12.5 mg-50 mg', null, 'TABLET', '023465', 'LOSARTAN/HCTZ',
+                            '00093736710', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277322, '40 mg', null, 'TABLET', '016579', 'SIMVASTATIN',
+                            '00093715510', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277323, '40 mg', null, 'TABLET', '016579', 'SIMVASTATIN',
+                            '00093715510', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277324, '40 mg', null, 'TABLET', '016579', 'SIMVASTATIN',
+                            '00093715510', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277325, '40 mg', null, 'TABLET', '016579', 'SIMVASTATIN',
+                            '00093715510', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277326, '40 mg', null, 'TABLET', '016579', 'SIMVASTATIN',
+                            '00093715510', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277328, '100 mg', null, 'TABLET', '046242', 'TRAZODONE HYDROCHLORIDE',
+                            '50111043403', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277329, '100 mg', null, 'TABLET', '046242', 'TRAZODONE HYDROCHLORIDE',
+                            '50111043403', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277327, '100 mg', null, 'TABLET', '046242', 'TRAZODONE HYDROCHLORIDE',
+                            '50111043403', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277330, '100 mg', null, 'TABLET', '046242', 'TRAZODONE HYDROCHLORIDE',
+                            '50111043403', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277331, '100 mg', null, 'TABLET', '046242', 'TRAZODONE HYDROCHLORIDE',
+                            '50111043403', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277332, '50 mg', null, 'TABLET', '005132', 'METOPROLOL TARTRATE',
+                            '00378003201', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277333, '50 mg', null, 'TABLET', '005132', 'METOPROLOL TARTRATE',
+                            '00378003201', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277334, '50 mg', null, 'TABLET', '005132', 'METOPROLOL TARTRATE',
+                            '00378003201', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277335, '50 mg', null, 'TABLET', '005132', 'METOPROLOL TARTRATE',
+                            '00378003201', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277336, '50 mg', null, 'TABLET', '005132', 'METOPROLOL TARTRATE',
+                            '00378003201', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277337, '25 mg', null, 'TABLET', '006817', 'SPIRONOLACTONE',
+                            '00228280311', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277338, '25 mg', null, 'TABLET', '006817', 'SPIRONOLACTONE',
+                            '00228280311', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277339, '25 mg', null, 'TABLET', '006817', 'SPIRONOLACTONE',
+                            '00228280311', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277340, '25 mg', null, 'TABLET', '006817', 'SPIRONOLACTONE',
+                            '00228280311', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277341, '25 mg', null, 'TABLET', '006817', 'SPIRONOLACTONE',
+                            '00228280311', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277342, '500 mg', null, 'TABLET', '044633', 'LEVETIRACETAM',
+                            '68180011316', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277345, '500 mg', null, 'TABLET', '044633', 'LEVETIRACETAM',
+                            '68180011316', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277343, '500 mg', null, 'TABLET', '044633', 'LEVETIRACETAM',
+                            '68180011316', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277344, '500 mg', null, 'TABLET', '044633', 'LEVETIRACETAM',
+                            '68180011316', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277348, '30 mg', null, 'CAPSULE', '057892', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754356', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277349, '30 mg', null, 'CAPSULE', '057892', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754356', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277346, '500 mg', null, 'TABLET', '044633', 'LEVETIRACETAM',
+                            '68180011316', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277347, '30 mg', null, 'CAPSULE', '057892', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754356', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277350, '30 mg', null, 'CAPSULE', '057892', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754356', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277352, '100 mg', null, 'CAPSULE', '009218', 'DOXYCYCLINE HYCLATE',
+                            '00143211250', 20.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277351, '30 mg', null, 'CAPSULE', '057892', 'DULOXETINE HYDROCHLORIDE',
+                            '00093754356', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277353, '100 mg', null, 'CAPSULE', '009218', 'DOXYCYCLINE HYCLATE',
+                            '00143211250', 20.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277354, '100 mg', null, 'CAPSULE', '009218', 'DOXYCYCLINE HYCLATE',
+                            '00143211250', 20.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277355, '100 mg', null, 'CAPSULE', '009218', 'DOXYCYCLINE HYCLATE',
+                            '00143211250', 20.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277356, '100 mg', null, 'CAPSULE', '009218', 'DOXYCYCLINE HYCLATE',
+                            '00143211250', 20.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277357, '1000 mcg/ml', null, 'VIAL', '002329', 'CYANOCOBALAMIN',
+                            '00143961910', 1.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277358, '1000 mcg/ml', null, 'VIAL', '002329', 'CYANOCOBALAMIN',
+                            '00143961910', 1.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277359, '1000 mcg/ml', null, 'VIAL', '002329', 'CYANOCOBALAMIN',
+                            '00143961910', 1.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277360, '1000 mcg/ml', null, 'VIAL', '002329', 'CYANOCOBALAMIN',
+                            '00143961910', 1.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277361, '1000 mcg/ml', null, 'VIAL', '002329', 'CYANOCOBALAMIN',
+                            '00143961910', 1.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277362, '50 mg', null, 'TABLET', '005139', 'ATENOLOL',
+                            '00093075201', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277363, '50 mg', null, 'TABLET', '005139', 'ATENOLOL',
+                            '00093075201', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277364, '50 mg', null, 'TABLET', '005139', 'ATENOLOL',
+                            '00093075201', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277365, '50 mg', null, 'TABLET', '005139', 'ATENOLOL',
+                            '00093075201', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277366, '50 mg', null, 'TABLET', '005139', 'ATENOLOL',
+                            '00093075201', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277367, '7.5 mg', null, 'TABLET', '029156', 'MELOXICAM',
+                            '29300012401', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277368, '7.5 mg', null, 'TABLET', '029156', 'MELOXICAM',
+                            '29300012401', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277369, '7.5 mg', null, 'TABLET', '029156', 'MELOXICAM',
+                            '29300012401', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277370, '7.5 mg', null, 'TABLET', '029156', 'MELOXICAM',
+                            '29300012401', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277371, '7.5 mg', null, 'TABLET', '029156', 'MELOXICAM',
+                            '29300012401', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277372, 'sodium 75 mg', null, 'TABLET', '008374', 'DICLOFENAC SODIUM',
+                            '00228255106', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277373, 'sodium 75 mg', null, 'TABLET', '008374', 'DICLOFENAC SODIUM',
+                            '00228255106', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277374, 'sodium 75 mg', null, 'TABLET', '008374', 'DICLOFENAC SODIUM',
+                            '00228255106', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277375, 'sodium 75 mg', null, 'TABLET', '008374', 'DICLOFENAC SODIUM',
+                            '00228255106', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277376, 'sodium 75 mg', null, 'TABLET', '008374', 'DICLOFENAC SODIUM',
+                            '00228255106', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277377, '81 mg', null, 'TABLET', '016995', 'ASPIRIN',
+                            '00113027468', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277378, '81 mg', null, 'TABLET', '016995', 'ASPIRIN',
+                            '00113027468', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277379, '81 mg', null, 'TABLET', '016995', 'ASPIRIN',
+                            '00113027468', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277380, '81 mg', null, 'TABLET', '016995', 'ASPIRIN',
+                            '00113027468', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277381, '81 mg', null, 'TABLET', '016995', 'ASPIRIN',
+                            '00113027468', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277382, '25 mg', null, 'TABLET', '039189', 'SILDENAFIL CITRATE',
+                            '59762003401', 6.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277383, '25 mg', null, 'TABLET', '039189', 'SILDENAFIL CITRATE',
+                            '59762003401', 6.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277384, '25 mg', null, 'TABLET', '039189', 'SILDENAFIL CITRATE',
+                            '59762003401', 6.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277385, '25 mg', null, 'TABLET', '039189', 'SILDENAFIL CITRATE',
+                            '59762003401', 6.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277386, '25 mg', null, 'TABLET', '039189', 'SILDENAFIL CITRATE',
+                            '59762003401', 6.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277387, '150 mg/24 hours', null, 'TABLET', '053006', 'BUPROPION HYDROCHLORIDE XL',
+                            '00115681108', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277388, '150 mg/24 hours', null, 'TABLET', '053006', 'BUPROPION HYDROCHLORIDE XL',
+                            '00115681108', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277389, '150 mg/24 hours', null, 'TABLET', '053006', 'BUPROPION HYDROCHLORIDE XL',
+                            '00115681108', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277390, '150 mg/24 hours', null, 'TABLET', '053006', 'BUPROPION HYDROCHLORIDE XL',
+                            '00115681108', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277391, '150 mg/24 hours', null, 'TABLET', '053006', 'BUPROPION HYDROCHLORIDE XL',
+                            '00115681108', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277392, '20 meq/15 ml', null, 'TABLET', '022346', 'POTASSIUM CHLORIDE',
+                            '00603154258', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277393, '20 meq/15 ml', null, 'TABLET', '022346', 'POTASSIUM CHLORIDE',
+                            '00603154258', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277394, '20 meq/15 ml', null, 'TABLET', '022346', 'POTASSIUM CHLORIDE',
+                            '00603154258', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277395, '20 meq/15 ml', null, 'TABLET', '022346', 'POTASSIUM CHLORIDE',
+                            '00603154258', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277396, '20 meq/15 ml', null, 'TABLET', '022346', 'POTASSIUM CHLORIDE',
+                            '00603154258', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277397, '5 mg', null, 'TABLET', '006753', 'PREDNISONE',
+                            '00054472831', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277398, '5 mg', null, 'TABLET', '006753', 'PREDNISONE',
+                            '00054472831', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277399, '5 mg', null, 'TABLET', '006753', 'PREDNISONE',
+                            '00054472831', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277400, '5 mg', null, 'TABLET', '006753', 'PREDNISONE',
+                            '00054472831', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277401, '5 mg', null, 'TABLET', '006753', 'PREDNISONE',
+                            '00054472831', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277402, '0.1% cream', null, 'CREAM', '007594', 'TRIAMCINOLONE ACETONIDE TOPICAL',
+                            '45802006436', 454.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277403, '0.1% cream', null, 'CREAM', '007594', 'TRIAMCINOLONE ACETONIDE TOPICAL',
+                            '45802006436', 454.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277404, '0.1% cream', null, 'CREAM', '007594', 'TRIAMCINOLONE ACETONIDE TOPICAL',
+                            '45802006436', 454.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277405, '0.1% cream', null, 'CREAM', '007594', 'TRIAMCINOLONE ACETONIDE TOPICAL',
+                            '45802006436', 454.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277406, '0.1% cream', null, 'CREAM', '007594', 'TRIAMCINOLONE ACETONIDE TOPICAL',
+                            '45802006436', 454.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277407, 'hydrochloride 25 mg', null, 'TABLET', '003728', 'HYDROXYZINE HYDROCHLORIDE',
+                            '00093506101', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277408, 'hydrochloride 25 mg', null, 'TABLET', '003728', 'HYDROXYZINE HYDROCHLORIDE',
+                            '00093506101', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277409, 'hydrochloride 25 mg', null, 'TABLET', '003728', 'HYDROXYZINE HYDROCHLORIDE',
+                            '00093506101', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277410, 'hydrochloride 25 mg', null, 'TABLET', '003728', 'HYDROXYZINE HYDROCHLORIDE',
+                            '00093506101', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277411, 'hydrochloride 25 mg', null, 'TABLET', '003728', 'HYDROXYZINE HYDROCHLORIDE',
+                            '00093506101', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277412, '100 mg', null, 'CAPSULE', '045100', 'ZONISAMIDE',
+                            '68462013001', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277413, '100 mg', null, 'CAPSULE', '045100', 'ZONISAMIDE',
+                            '68462013001', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277415, '100 mg', null, 'CAPSULE', '045100', 'ZONISAMIDE',
+                            '68462013001', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277416, '100 mg', null, 'CAPSULE', '045100', 'ZONISAMIDE',
+                            '68462013001', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277414, '100 mg', null, 'CAPSULE', '045100', 'ZONISAMIDE',
+                            '68462013001', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277417, '875 mg', null, 'TABLET', '040292', 'AMOXICILLIN TRIHYDRATE',
+                            '00093226401', 20.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277418, '875 mg', null, 'TABLET', '040292', 'AMOXICILLIN TRIHYDRATE',
+                            '00093226401', 20.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277421, '875 mg', null, 'TABLET', '040292', 'AMOXICILLIN TRIHYDRATE',
+                            '00093226401', 20.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277422, '20 mg', null, 'TABLET', '046223', 'PAROXETINE HYDROCHLORIDE',
+                            '00378700210', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277423, '20 mg', null, 'TABLET', '046223', 'PAROXETINE HYDROCHLORIDE',
+                            '00378700210', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277420, '875 mg', null, 'TABLET', '040292', 'AMOXICILLIN TRIHYDRATE',
+                            '00093226401', 20.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277419, '875 mg', null, 'TABLET', '040292', 'AMOXICILLIN TRIHYDRATE',
+                            '00093226401', 20.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277427, '200 mg', null, 'CAPSULE', '044168', 'BENZONATATE',
+                            '51224000150', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277424, '20 mg', null, 'TABLET', '046223', 'PAROXETINE HYDROCHLORIDE',
+                            '00378700210', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277428, '200 mg', null, 'CAPSULE', '044168', 'BENZONATATE',
+                            '51224000150', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277425, '20 mg', null, 'TABLET', '046223', 'PAROXETINE HYDROCHLORIDE',
+                            '00378700210', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277429, '200 mg', null, 'CAPSULE', '044168', 'BENZONATATE',
+                            '51224000150', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277430, '200 mg', null, 'CAPSULE', '044168', 'BENZONATATE',
+                            '51224000150', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277426, '20 mg', null, 'TABLET', '046223', 'PAROXETINE HYDROCHLORIDE',
+                            '00378700210', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277432, '20 mcg-100 mcg', null, 'TABLET', '030986', 'LEVONORGESTREL-ETH ESTRA',
+                            '00378728753', 28.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277431, '200 mg', null, 'CAPSULE', '044168', 'BENZONATATE',
+                            '51224000150', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277433, '20 mcg-100 mcg', null, 'TABLET', '030986', 'LEVONORGESTREL-ETH ESTRA',
+                            '00378728753', 28.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277434, '20 mcg-100 mcg', null, 'TABLET', '030986', 'LEVONORGESTREL-ETH ESTRA',
+                            '00378728753', 28.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277435, '20 mcg-100 mcg', null, 'TABLET', '030986', 'LEVONORGESTREL-ETH ESTRA',
+                            '00378728753', 28.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277436, '20 mcg-100 mcg', null, 'TABLET', '030986', 'LEVONORGESTREL-ETH ESTRA',
+                            '00378728753', 28.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277437, '300 mg/24 hours', null, 'TABLET', '053007', 'BUPROPION HYDROCHLORIDE XL',
+                            '00378200905', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277438, '300 mg/24 hours', null, 'TABLET', '053007', 'BUPROPION HYDROCHLORIDE XL',
+                            '00378200905', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277439, '300 mg/24 hours', null, 'TABLET', '053007', 'BUPROPION HYDROCHLORIDE XL',
+                            '00378200905', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277441, '300 mg/24 hours', null, 'TABLET', '053007', 'BUPROPION HYDROCHLORIDE XL',
+                            '00378200905', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277440, '300 mg/24 hours', null, 'TABLET', '053007', 'BUPROPION HYDROCHLORIDE XL',
+                            '00378200905', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277442, '50 mg', null, 'TABLET', '006818', 'SPIRONOLACTONE',
+                            '00228267211', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277443, '50 mg', null, 'TABLET', '006818', 'SPIRONOLACTONE',
+                            '00228267211', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277444, '50 mg', null, 'TABLET', '006818', 'SPIRONOLACTONE',
+                            '00228267211', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277445, '50 mg', null, 'TABLET', '006818', 'SPIRONOLACTONE',
+                            '00228267211', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277446, '50 mg', null, 'TABLET', '006818', 'SPIRONOLACTONE',
+                            '00228267211', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277447, '200 mg', null, 'TABLET', '009478', 'PHENAZOPYRIDINE HYDROCHLORIDE',
+                            '10135040014', 6.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277448, '200 mg', null, 'TABLET', '009478', 'PHENAZOPYRIDINE HYDROCHLORIDE',
+                            '10135040014', 6.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277449, '200 mg', null, 'TABLET', '009478', 'PHENAZOPYRIDINE HYDROCHLORIDE',
+                            '10135040014', 6.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277450, '200 mg', null, 'TABLET', '009478', 'PHENAZOPYRIDINE HYDROCHLORIDE',
+                            '10135040014', 6.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277451, '200 mg', null, 'TABLET', '009478', 'PHENAZOPYRIDINE HYDROCHLORIDE',
+                            '10135040014', 6.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277452, '4 mg', null, 'TABLET', '030274', 'TIZANIDINE HYDROCHLORIDE',
+                            '00185440010', 90.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277453, '4 mg', null, 'TABLET', '030274', 'TIZANIDINE HYDROCHLORIDE',
+                            '00185440010', 90.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277454, '4 mg', null, 'TABLET', '030274', 'TIZANIDINE HYDROCHLORIDE',
+                            '00185440010', 90.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277455, '4 mg', null, 'TABLET', '030274', 'TIZANIDINE HYDROCHLORIDE',
+                            '00185440010', 90.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277456, '4 mg', null, 'TABLET', '030274', 'TIZANIDINE HYDROCHLORIDE',
+                            '00185440010', 90.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277458, '10 mg', null, 'CAPSULE', '046213', 'FLUOXETINE HYDROCHLORIDE',
+                            '65862019201', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277457, '10 mg', null, 'CAPSULE', '046213', 'FLUOXETINE HYDROCHLORIDE',
+                            '65862019201', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277459, '10 mg', null, 'CAPSULE', '046213', 'FLUOXETINE HYDROCHLORIDE',
+                            '65862019201', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277460, '10 mg', null, 'CAPSULE', '046213', 'FLUOXETINE HYDROCHLORIDE',
+                            '65862019201', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277461, '10 mg', null, 'CAPSULE', '046213', 'FLUOXETINE HYDROCHLORIDE',
+                            '65862019201', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277462, '4 mg', null, 'RAPDIS', '041562', 'ONDANSETRON  ODT',
+                            '00173056900', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277463, '4 mg', null, 'RAPDIS', '041562', 'ONDANSETRON  ODT',
+                            '00173056900', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277464, '4 mg', null, 'RAPDIS', '041562', 'ONDANSETRON  ODT',
+                            '00173056900', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277465, '4 mg', null, 'RAPDIS', '041562', 'ONDANSETRON  ODT',
+                            '00173056900', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277466, '4 mg', null, 'RAPDIS', '041562', 'ONDANSETRON  ODT',
+                            '00173056900', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277467, '5 mg', null, 'TABLET', '047478', 'CYCLOBENZAPRINE HYDROCHLORIDE',
+                            '00378077101', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277468, '5 mg', null, 'TABLET', '047478', 'CYCLOBENZAPRINE HYDROCHLORIDE',
+                            '00378077101', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277469, '5 mg', null, 'TABLET', '047478', 'CYCLOBENZAPRINE HYDROCHLORIDE',
+                            '00378077101', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277470, '5 mg', null, 'TABLET', '047478', 'CYCLOBENZAPRINE HYDROCHLORIDE',
+                            '00378077101', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277471, '5 mg', null, 'TABLET', '047478', 'CYCLOBENZAPRINE HYDROCHLORIDE',
+                            '00378077101', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277472, '25 mg', null, 'TABLET', '019293', 'CARVEDILOL',
+                            '00093729601', 60.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277473, '25 mg', null, 'TABLET', '019293', 'CARVEDILOL',
+                            '00093729601', 60.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277474, '25 mg', null, 'TABLET', '019293', 'CARVEDILOL',
+                            '00093729601', 60.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277475, '25 mg', null, 'TABLET', '019293', 'CARVEDILOL',
+                            '00093729601', 60.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277476, '25 mg', null, 'TABLET', '019293', 'CARVEDILOL',
+                            '00093729601', 60.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277477, '750 mg', null, 'TABLET', '004655', 'METHOCARBAMOL',
+                            '00143129201', 90.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277478, '750 mg', null, 'TABLET', '004655', 'METHOCARBAMOL',
+                            '00143129201', 90.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277479, '750 mg', null, 'TABLET', '004655', 'METHOCARBAMOL',
+                            '00143129201', 90.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277480, '750 mg', null, 'TABLET', '004655', 'METHOCARBAMOL',
+                            '00143129201', 90.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277481, '750 mg', null, 'TABLET', '004655', 'METHOCARBAMOL',
+                            '00143129201', 90.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277482, 'monohydrate 100 mg', null, 'CAPSULE', '015943', 'DOXYCYCLINE MONOHYDRATE',
+                            '00378602389', 20.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277483, 'monohydrate 100 mg', null, 'CAPSULE', '015943', 'DOXYCYCLINE MONOHYDRATE',
+                            '00378602389', 20.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277484, 'monohydrate 100 mg', null, 'CAPSULE', '015943', 'DOXYCYCLINE MONOHYDRATE',
+                            '00378602389', 20.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277485, 'monohydrate 100 mg', null, 'CAPSULE', '015943', 'DOXYCYCLINE MONOHYDRATE',
+                            '00378602389', 20.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277486, 'monohydrate 100 mg', null, 'CAPSULE', '015943', 'DOXYCYCLINE MONOHYDRATE',
+                            '00378602389', 20.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277487, '25 mg', null, 'TABLET', '046227', 'SERTRALINE HYDROCHLORIDE',
+                            '00143965609', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277488, '25 mg', null, 'TABLET', '046227', 'SERTRALINE HYDROCHLORIDE',
+                            '00143965609', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277489, '25 mg', null, 'TABLET', '046227', 'SERTRALINE HYDROCHLORIDE',
+                            '00143965609', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277490, '25 mg', null, 'TABLET', '046227', 'SERTRALINE HYDROCHLORIDE',
+                            '00143965609', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277491, '25 mg', null, 'TABLET', '046227', 'SERTRALINE HYDROCHLORIDE',
+                            '00143965609', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277493, '10 mg', null, 'TABLET', '029967', 'ATORVASTATIN CALCIUM',
+                            '00093505698', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277494, '10 mg', null, 'TABLET', '029967', 'ATORVASTATIN CALCIUM',
+                            '00093505698', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277492, '10 mg', null, 'TABLET', '029967', 'ATORVASTATIN CALCIUM',
+                            '00093505698', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277495, '10 mg', null, 'TABLET', '029967', 'ATORVASTATIN CALCIUM',
+                            '00093505698', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277497, 'with iron 20 mcg-1 mg', null, 'TABLET', '003301', 'NORETH A-ET ESTRA/FE FUMARATE',
+                            '00378728353', 28.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277496, '10 mg', null, 'TABLET', '029967', 'ATORVASTATIN CALCIUM',
+                            '00093505698', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277498, 'with iron 20 mcg-1 mg', null, 'TABLET', '003301', 'NORETH A-ET ESTRA/FE FUMARATE',
+                            '00378728353', 28.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277500, 'with iron 20 mcg-1 mg', null, 'TABLET', '003301', 'NORETH A-ET ESTRA/FE FUMARATE',
+                            '00378728353', 28.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277501, 'with iron 20 mcg-1 mg', null, 'TABLET', '003301', 'NORETH A-ET ESTRA/FE FUMARATE',
+                            '00378728353', 28.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277499, 'with iron 20 mcg-1 mg', null, 'TABLET', '003301', 'NORETH A-ET ESTRA/FE FUMARATE',
+                            '00378728353', 28.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277504, '25 mg', null, 'TABLET', '015864', 'ATENOLOL',
+                            '00093078701', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277503, '25 mg', null, 'TABLET', '015864', 'ATENOLOL',
+                            '00093078701', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277506, '25 mg', null, 'TABLET', '015864', 'ATENOLOL',
+                            '00093078701', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277507, '150 mg', null, 'CAPSULE', '046405', 'VENLAFAXINE HYDROCHLORIDE ER',
+                            '00093738605', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277508, '150 mg', null, 'CAPSULE', '046405', 'VENLAFAXINE HYDROCHLORIDE ER',
+                            '00093738605', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277509, '150 mg', null, 'CAPSULE', '046405', 'VENLAFAXINE HYDROCHLORIDE ER',
+                            '00093738605', 30.0, true, '60639');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277510, '150 mg', null, 'CAPSULE', '046405', 'VENLAFAXINE HYDROCHLORIDE ER',
+                            '00093738605', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277511, '150 mg', null, 'CAPSULE', '046405', 'VENLAFAXINE HYDROCHLORIDE ER',
+                            '00093738605', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277505, '25 mg', null, 'TABLET', '015864', 'ATENOLOL',
+                            '00093078701', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277502, '25 mg', null, 'TABLET', '015864', 'ATENOLOL',
+                            '00093078701', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277515, '250 mg-100 mg', null, 'TABLET', '045855', 'ATOVAQUONE/PROGUANIL HYDROCHLORIDE',
+                            '00378416201', 30.0, true, '75034');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277516, '250 mg-100 mg', null, 'TABLET', '045855', 'ATOVAQUONE/PROGUANIL HYDROCHLORIDE',
+                            '00378416201', 30.0, true, '90036');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277512, '250 mg-100 mg', null, 'TABLET', '045855', 'ATOVAQUONE/PROGUANIL HYDROCHLORIDE',
+                            '00378416201', 30.0, true, '10023');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277513, '250 mg-100 mg', null, 'TABLET', '045855', 'ATOVAQUONE/PROGUANIL HYDROCHLORIDE',
+                            '00378416201', 30.0, true, '30606');
+INSERT INTO drug_master(
+                        id, dosage_strength, dosageuom, drug_type, gsn, name, ndc, quantity, report_flag, zip_code)
+                        VALUES (277514, '250 mg-100 mg', null, 'TABLET', '045855', 'ATOVAQUONE/PROGUANIL HYDROCHLORIDE',
+                            '00378416201', 30.0, true, '60639');

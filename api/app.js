@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var reportsRouter = require('./routes/reports');
+var runRouter = require('./routes/run');
 
 var options = {
   bufferMaxEntries: 0,
@@ -44,6 +45,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/reports', reportsRouter);
+app.use('/run', runRouter);
+
+app.use(express.json());
+app.use(express.urlencoded({extended: true}))
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

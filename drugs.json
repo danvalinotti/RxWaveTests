@@ -1,0 +1,675 @@
+[{
+        "drugGSN": "016599",
+        "drugName": "METOPROLOL SUCCINATE ER",
+        "dosageStrength": "50 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "050760",
+        "drugName": "ESCITALOPRAM OXALATE",
+        "dosageStrength": "20 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046754",
+        "drugName": "METFORMIN HYDROCHLORIDE",
+        "dosageStrength": "500 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "004641",
+        "drugName": "BENZONATATE",
+        "dosageStrength": "100 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 90,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "021413",
+        "drugName": "GABAPENTIN",
+        "dosageStrength": "100 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 90,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "000389",
+        "drugName": "LISINOPRIL/HYDROCHLOROTHIAZIDE",
+        "dosageStrength": "25 mg-20 mg",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "008362",
+        "drugName": "NAPROXEN",
+        "dosageStrength": "500 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "008208",
+        "drugName": "FUROSEMIDE",
+        "dosageStrength": "20 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "017037",
+        "drugName": "CETIRIZINE HYDROCHLORIDE",
+        "dosageStrength": "10 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "011673",
+        "drugName": "RANITIDINE HYDROCHLORIDE",
+        "dosageStrength": "150 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "000388",
+        "drugName": "LISINOPRIL/HYDROCHLOROTHIAZIDE",
+        "dosageStrength": "12.5 MG-20 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "006648",
+        "drugName": "LEVOTHYROXINE",
+        "dosageStrength": "25 MCG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "008349",
+        "drugName": "IBUPROFEN",
+        "dosageStrength": "600 MG",
+        "drugForm": "TABLET",
+        "quantity": 90,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "000393",
+        "drugName": "LISINOPRIL",
+        "dosageStrength": "5 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "002536",
+        "drugName": "ALLOPURINOL",
+        "dosageStrength": "300 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "023989",
+        "drugName": "VALACYCLOVIR",
+        "dosageStrength": "500 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "022624",
+        "drugName": "AZITHROMYCIN",
+        "dosageStrength": "500 MG",
+        "drugForm": "TABLET",
+        "quantity": 3,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "057959",
+        "drugName": "CHLORHEXIDINE GLUCONATE",
+        "dosageStrength": "0.12%",
+        "drugForm": "MOUTHWASH",
+        "quantity": 473,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "008209",
+        "drugName": "FUROSEMIDE",
+        "dosageStrength": "40 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "005039",
+        "drugName": "ALBUTEROL SULFATE",
+        "dosageStrength": "0.63 MG/3 ML ",
+        "drugForm": "SOLUTION",
+        "quantity": 360,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "006817",
+        "drugName": "SPIRONOLACTONE",
+        "dosageStrength": "25 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "005132",
+        "drugName": "METOPROLOL TARTRATE",
+        "dosageStrength": "50 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "001645",
+        "drugName": "FERROUS SULFATE",
+        "dosageStrength": "325 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "057892",
+        "drugName": "DULOXETINE HYDROCHLORIDE",
+        "dosageStrength": "30 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "040257",
+        "drugName": "CEFDINIR",
+        "dosageStrength": "300 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "057893",
+        "drugName": "DULOXETINE HYDROCHLORIDE",
+        "dosageStrength": "60 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "006652",
+        "drugName": "LEVOTHYROXINE SODIUM",
+        "dosageStrength": "112 MCG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046215",
+        "drugName": "FLUOXETINE HYDROCHLORIDE",
+        "dosageStrength": "40 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "009218",
+        "drugName": "DOXYCYCLINE HYCLATE",
+        "dosageStrength": "100 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 20,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "016578",
+        "drugName": "SIMVASTATIN",
+        "dosageStrength": "20 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "006654",
+        "drugName": "LEVOTHYROXINE SODIUM",
+        "dosageStrength": "150 MCG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "023465",
+        "drugName": "LOSARTAN/HCTZ",
+        "dosageStrength": "12.5 MG-50 mg",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "002535",
+        "drugName": "ALLOPURINOL",
+        "dosageStrength": "100 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "029928",
+        "drugName": "LEVOFLOXACIN",
+        "dosageStrength": "500 MG",
+        "drugForm": "TABLET",
+        "quantity": 10,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046242",
+        "drugName": "TRAZODONE HYDROCHLORIDE",
+        "dosageStrength": "100 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "002366",
+        "drugName": "FOLIC ACID",
+        "dosageStrength": "1 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "040941",
+        "drugName": "RABEPRAZOLE SODIUM",
+        "dosageStrength": "20 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "016995",
+        "drugName": "ASPIRIN",
+        "dosageStrength": "81 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "006753",
+        "drugName": "PREDNISONE",
+        "dosageStrength": "5 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "016579",
+        "drugName": "SIMVASTATIN",
+        "dosageStrength": "40 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "022346",
+        "drugName": "POTASSIUM CHLORIDE",
+        "dosageStrength": "20 MEQ/15 mL",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "002329",
+        "drugName": "CYANOCOBALAMIN",
+        "dosageStrength": "1000 MCG/ML",
+        "drugForm": "VIAL",
+        "quantity": 1,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "042683",
+        "drugName": "AMOXICILLIN TRIHYDRATE",
+        "dosageStrength": "400 MG/5 ML",
+        "drugForm": "SUSP RECON",
+        "quantity": 100,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "018698",
+        "drugName": "LORATADINE",
+        "dosageStrength": "10 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "005139",
+        "drugName": "ATENOLOL",
+        "dosageStrength": "50 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "029156",
+        "drugName": "MELOXICAM",
+        "dosageStrength": "7.5 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "007594",
+        "drugName": "TRIAMCINOLONE ACETONIDE TOPICAL",
+        "dosageStrength": "0.1% Cream",
+        "drugForm": "CREAM",
+        "quantity": 454,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "008374",
+        "drugName": "DICLOFENAC SODIUM",
+        "dosageStrength": "75 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "021277",
+        "drugName": "LISINOPRIL/HYDROCHLOROTHIAZIDE",
+        "dosageStrength": "12.5 MG-10 mg",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "028915",
+        "drugName": "HYDROCHLOROTHIAZIDE",
+        "dosageStrength": "12.5 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "039189",
+        "drugName": "SILDENAFIL CITRATE",
+        "dosageStrength": "25 MG",
+        "drugForm": "TABLET",
+        "quantity": 6,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "040292",
+        "drugName": "AMOXICILLIN TRIHYDRATE",
+        "dosageStrength": "875 MG",
+        "drugForm": "TABLET",
+        "quantity": 20,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "053006",
+        "drugName": "BUPROPION HYDROCHLORIDE XL",
+        "dosageStrength": "150 MG/24 hours",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046223",
+        "drugName": "PAROXETINE HYDROCHLORIDE",
+        "dosageStrength": "20 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "044633",
+        "drugName": "LEVETIRACETAM",
+        "dosageStrength": "500 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "045100",
+        "drugName": "ZONISAMIDE",
+        "dosageStrength": "100 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 60,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "003728",
+        "drugName": "HYDROXYZINE HYDROCHLORIDE",
+        "dosageStrength": "25 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046213",
+        "drugName": "FLUOXETINE HYDROCHLORIDE",
+        "dosageStrength": "10 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "006818",
+        "drugName": "SPIRONOLACTONE",
+        "dosageStrength": "50 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "004655",
+        "drugName": "METHOCARBAMOL",
+        "dosageStrength": "750 MG",
+        "drugForm": "TABLET",
+        "quantity": 90,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "009478",
+        "drugName": "PHENAZOPYRIDINE HYDROCHLORIDE",
+        "dosageStrength": "200 MG",
+        "drugForm": "TABLET",
+        "quantity": 6,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "015864",
+        "drugName": "ATENOLOL",
+        "dosageStrength": "25 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "044168",
+        "drugName": "BENZONATATE",
+        "dosageStrength": "200 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "041562",
+        "drugName": "ONDANSETRON  ODT",
+        "dosageStrength": "4 MG",
+        "drugForm": "RAPDIS",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "030274",
+        "drugName": "TIZANIDINE HYDROCHLORIDE",
+        "dosageStrength": "4 MG",
+        "drugForm": "TABLET",
+        "quantity": 90,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "029967",
+        "drugName": "ATORVASTATIN CALCIUM",
+        "dosageStrength": "10 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "053007",
+        "drugName": "BUPROPION HYDROCHLORIDE XL",
+        "dosageStrength": "300 MG/24 hours",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "015943",
+        "drugName": "DOXYCYCLINE MONOHYDRATE",
+        "dosageStrength": "100 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 20,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "045855",
+        "drugName": "ATOVAQUONE/PROGUANIL HYDROCHLORIDE",
+        "dosageStrength": "250 mg-100 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "030986",
+        "drugName": "LEVONORGESTREL-ETH ESTRA",
+        "dosageStrength": "20 mcg-100 mcg",
+        "drugForm": "TABLET",
+        "quantity": 28,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "047478",
+        "drugName": "CYCLOBENZAPRINE HYDROCHLORIDE",
+        "dosageStrength": "5 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046227",
+        "drugName": "SERTRALINE HYDROCHLORIDE",
+        "dosageStrength": "25 MG",
+        "drugForm": "TABLET",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "046405",
+        "drugName": "VENLAFAXINE HYDROCHLORIDE ER",
+        "dosageStrength": "150 MG",
+        "drugForm": "CAPSULE",
+        "quantity": 30,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "003301",
+        "drugName": "NORETH A-ET ESTRA/FE FUMARATE",
+        "dosageStrength": "20 mcg-1 mg",
+        "drugForm": "TABLET",
+        "quantity": 28,
+        "brandIndicator": "GENERIC",
+        "goodRxId": ""
+    },
+    {
+        "drugGSN": "019293",
+        "drugName": "CARVEDILOL",
+        "dosageStrength": "25 MG",
+        "drugForm": "TABLET",
+        "quantity": 60,
+        "brandIndicator": "GENERIC"
+    }
+]
